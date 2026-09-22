@@ -1,0 +1,1808 @@
+{
+  "id": "d20e1973-5b44-4b98-938f-f4442cf338a8",
+  "type": "Project",
+  "schemaVersion": 4,
+  "name": "Practica02",
+  "description": "Pr\u00e1ctica 2 de BBDD Avanzadas.",
+  "owner": "Alejandro",
+  "createdAt": "2026-09-22T13:23:27.149Z",
+  "currentDiagramType": "ClassDiagram",
+  "currentDiagramIndices": {
+    "ClassDiagram": 0,
+    "ObjectDiagram": 0,
+    "StateMachineDiagram": 0,
+    "AgentDiagram": 0,
+    "UserDiagram": 0,
+    "GUINoCodeDiagram": 0,
+    "QuantumCircuitDiagram": 0,
+    "NNDiagram": 0,
+    "BPMN": 0
+  },
+  "diagrams": {
+    "ClassDiagram": [
+      {
+        "id": "e92e9d88-9ef5-43ee-b599-6ee1b79afd7d",
+        "title": "Class Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ClassDiagram",
+          "size": {
+            "width": 1686.78125,
+            "height": 900
+          },
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "elements": {
+            "90edfd2f-4c18-4faa-884e-851c2878df9a": {
+              "id": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+              "name": "Usuario",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -693,
+                "y": -368,
+                "width": 180,
+                "height": 280
+              },
+              "attributes": [
+                "ad555156-6024-49b8-9710-00d41b6f90e0",
+                "0d6b5bd7-6516-4424-89ad-7e90662ec3e1",
+                "cdf312eb-545f-4519-abe6-7aed515d6701",
+                "2c126276-694a-4562-94e6-e4497273d8a3",
+                "94d1a869-b2a1-41c9-8efe-c77c44b7a6a6",
+                "8dd1fc27-b7c8-4072-9440-79778450df9c",
+                "08c273c0-aed9-417d-9a01-bc6f8cdbe63f",
+                "85234364-34c0-4f83-8c42-f3a96d1cb80b"
+              ],
+              "methods": []
+            },
+            "ad555156-6024-49b8-9710-00d41b6f90e0": {
+              "id": "ad555156-6024-49b8-9710-00d41b6f90e0",
+              "name": "codUsuario",
+              "type": "ClassAttribute",
+              "owner": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+              "bounds": {
+                "x": -692.5,
+                "y": -327.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "0d6b5bd7-6516-4424-89ad-7e90662ec3e1": {
+              "id": "0d6b5bd7-6516-4424-89ad-7e90662ec3e1",
+              "name": "nombre",
+              "type": "ClassAttribute",
+              "owner": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+              "bounds": {
+                "x": -692.5,
+                "y": -297.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "cdf312eb-545f-4519-abe6-7aed515d6701": {
+              "id": "cdf312eb-545f-4519-abe6-7aed515d6701",
+              "name": "apellido1",
+              "type": "ClassAttribute",
+              "owner": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+              "bounds": {
+                "x": -692.5,
+                "y": -267.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "2c126276-694a-4562-94e6-e4497273d8a3": {
+              "id": "2c126276-694a-4562-94e6-e4497273d8a3",
+              "name": "apellido2",
+              "type": "ClassAttribute",
+              "owner": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+              "bounds": {
+                "x": -692.5,
+                "y": -237.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": true,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "94d1a869-b2a1-41c9-8efe-c77c44b7a6a6": {
+              "id": "94d1a869-b2a1-41c9-8efe-c77c44b7a6a6",
+              "name": "nif",
+              "type": "ClassAttribute",
+              "owner": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+              "bounds": {
+                "x": -692.5,
+                "y": -207.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "8dd1fc27-b7c8-4072-9440-79778450df9c": {
+              "id": "8dd1fc27-b7c8-4072-9440-79778450df9c",
+              "name": "telefono",
+              "type": "ClassAttribute",
+              "owner": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+              "bounds": {
+                "x": -692.5,
+                "y": -177.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "08c273c0-aed9-417d-9a01-bc6f8cdbe63f": {
+              "id": "08c273c0-aed9-417d-9a01-bc6f8cdbe63f",
+              "name": "email",
+              "type": "ClassAttribute",
+              "owner": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+              "bounds": {
+                "x": -692.5,
+                "y": -147.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "85234364-34c0-4f83-8c42-f3a96d1cb80b": {
+              "id": "85234364-34c0-4f83-8c42-f3a96d1cb80b",
+              "name": "fechaNac",
+              "type": "ClassAttribute",
+              "owner": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+              "bounds": {
+                "x": -692.5,
+                "y": -117.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "eb2334d2-da57-4167-aa53-cd5a97178e5c": {
+              "id": "eb2334d2-da57-4167-aa53-cd5a97178e5c",
+              "name": "Vehiculo",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -128,
+                "y": 180,
+                "width": 220,
+                "height": 190
+              },
+              "attributes": [
+                "c1459890-1180-44d5-8db4-233135a02f7c",
+                "6cdbc5f4-4c12-4cae-aa0c-047029512e69",
+                "72b39f05-7c39-4020-ae2b-ab217cb8e781",
+                "73174148-620f-4a6c-b193-68d4e8bce2ec",
+                "22077e65-4c41-4649-9394-c188b0b77158"
+              ],
+              "methods": []
+            },
+            "c1459890-1180-44d5-8db4-233135a02f7c": {
+              "id": "c1459890-1180-44d5-8db4-233135a02f7c",
+              "name": "codVehiculo",
+              "type": "ClassAttribute",
+              "owner": "eb2334d2-da57-4167-aa53-cd5a97178e5c",
+              "bounds": {
+                "x": -127.5,
+                "y": 220.5,
+                "width": 219,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "6cdbc5f4-4c12-4cae-aa0c-047029512e69": {
+              "id": "6cdbc5f4-4c12-4cae-aa0c-047029512e69",
+              "name": "matricula",
+              "type": "ClassAttribute",
+              "owner": "eb2334d2-da57-4167-aa53-cd5a97178e5c",
+              "bounds": {
+                "x": -127.5,
+                "y": 250.5,
+                "width": 219,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": true
+            },
+            "72b39f05-7c39-4020-ae2b-ab217cb8e781": {
+              "id": "72b39f05-7c39-4020-ae2b-ab217cb8e781",
+              "name": "numPlazas",
+              "type": "ClassAttribute",
+              "owner": "eb2334d2-da57-4167-aa53-cd5a97178e5c",
+              "bounds": {
+                "x": -127.5,
+                "y": 280.5,
+                "width": 219,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "73174148-620f-4a6c-b193-68d4e8bce2ec": {
+              "id": "73174148-620f-4a6c-b193-68d4e8bce2ec",
+              "name": "color",
+              "type": "ClassAttribute",
+              "owner": "eb2334d2-da57-4167-aa53-cd5a97178e5c",
+              "bounds": {
+                "x": -127.5,
+                "y": 310.5,
+                "width": 219,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "22077e65-4c41-4649-9394-c188b0b77158": {
+              "id": "22077e65-4c41-4649-9394-c188b0b77158",
+              "name": "descripcion",
+              "type": "ClassAttribute",
+              "owner": "eb2334d2-da57-4167-aa53-cd5a97178e5c",
+              "bounds": {
+                "x": -127.5,
+                "y": 340.5,
+                "width": 219,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": true,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "c15d8177-4544-4d3f-a4a3-ef77c1479529": {
+              "id": "c15d8177-4544-4d3f-a4a3-ef77c1479529",
+              "name": "Viaje",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -272,
+                "y": -201,
+                "width": 250,
+                "height": 160
+              },
+              "attributes": [
+                "3f693da1-1475-48bb-8109-d3064adaaa0b",
+                "813c737e-80b1-444a-aff9-886d7dd47e76",
+                "557413c2-9dc5-4a8d-8ae4-c9d8066c7243",
+                "a0213d41-d148-40d5-a4d9-622f94f4fe39"
+              ],
+              "methods": []
+            },
+            "3f693da1-1475-48bb-8109-d3064adaaa0b": {
+              "id": "3f693da1-1475-48bb-8109-d3064adaaa0b",
+              "name": "codViaje",
+              "type": "ClassAttribute",
+              "owner": "c15d8177-4544-4d3f-a4a3-ef77c1479529",
+              "bounds": {
+                "x": -271.5,
+                "y": -160.5,
+                "width": 249,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "813c737e-80b1-444a-aff9-886d7dd47e76": {
+              "id": "813c737e-80b1-444a-aff9-886d7dd47e76",
+              "name": "fechaHoraSalida",
+              "type": "ClassAttribute",
+              "owner": "c15d8177-4544-4d3f-a4a3-ef77c1479529",
+              "bounds": {
+                "x": -271.5,
+                "y": -130.5,
+                "width": 249,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "datetime",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "557413c2-9dc5-4a8d-8ae4-c9d8066c7243": {
+              "id": "557413c2-9dc5-4a8d-8ae4-c9d8066c7243",
+              "name": "numPlazas",
+              "type": "ClassAttribute",
+              "owner": "c15d8177-4544-4d3f-a4a3-ef77c1479529",
+              "bounds": {
+                "x": -271.5,
+                "y": -100.5,
+                "width": 249,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "a0213d41-d148-40d5-a4d9-622f94f4fe39": {
+              "id": "a0213d41-d148-40d5-a4d9-622f94f4fe39",
+              "name": "precioPersona",
+              "type": "ClassAttribute",
+              "owner": "c15d8177-4544-4d3f-a4a3-ef77c1479529",
+              "bounds": {
+                "x": -271.5,
+                "y": -70.5,
+                "width": 249,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "float",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "3b8476eb-1b19-4ab1-b1f9-a9a7279ec81a": {
+              "id": "3b8476eb-1b19-4ab1-b1f9-a9a7279ec81a",
+              "name": "Regla",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -290,
+                "y": 49,
+                "width": 160,
+                "height": 100
+              },
+              "attributes": [
+                "acd424fd-7e64-4201-8c2d-71992be663ec",
+                "21e87f81-6bbe-47f4-8fa1-8925799bdd2a"
+              ],
+              "methods": []
+            },
+            "acd424fd-7e64-4201-8c2d-71992be663ec": {
+              "id": "acd424fd-7e64-4201-8c2d-71992be663ec",
+              "name": "codRegla",
+              "type": "ClassAttribute",
+              "owner": "3b8476eb-1b19-4ab1-b1f9-a9a7279ec81a",
+              "bounds": {
+                "x": -289.5,
+                "y": 89.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "21e87f81-6bbe-47f4-8fa1-8925799bdd2a": {
+              "id": "21e87f81-6bbe-47f4-8fa1-8925799bdd2a",
+              "name": "nombre",
+              "type": "ClassAttribute",
+              "owner": "3b8476eb-1b19-4ab1-b1f9-a9a7279ec81a",
+              "bounds": {
+                "x": -289.5,
+                "y": 119.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "4503fa26-2bda-4815-905a-eaa1bf763cf7": {
+              "id": "4503fa26-2bda-4815-905a-eaa1bf763cf7",
+              "name": "Mensaje",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -706,
+                "y": 133,
+                "width": 210,
+                "height": 160
+              },
+              "attributes": [
+                "ed05b135-4830-463e-9118-ead46e316d19",
+                "8cc9f071-149d-4763-9634-e1a49db6d64b",
+                "8fe4d966-58fc-4240-b4f1-1a2bc273eb56",
+                "03affa92-014e-42bc-bcac-4d775944df5c"
+              ],
+              "methods": []
+            },
+            "ed05b135-4830-463e-9118-ead46e316d19": {
+              "id": "ed05b135-4830-463e-9118-ead46e316d19",
+              "name": "codMensaje",
+              "type": "ClassAttribute",
+              "owner": "4503fa26-2bda-4815-905a-eaa1bf763cf7",
+              "bounds": {
+                "x": -705.5,
+                "y": 173.5,
+                "width": 209,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "8cc9f071-149d-4763-9634-e1a49db6d64b": {
+              "id": "8cc9f071-149d-4763-9634-e1a49db6d64b",
+              "name": "tipo",
+              "type": "ClassAttribute",
+              "owner": "4503fa26-2bda-4815-905a-eaa1bf763cf7",
+              "bounds": {
+                "x": -705.5,
+                "y": 203.5,
+                "width": 209,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "8fe4d966-58fc-4240-b4f1-1a2bc273eb56": {
+              "id": "8fe4d966-58fc-4240-b4f1-1a2bc273eb56",
+              "name": "fecha",
+              "type": "ClassAttribute",
+              "owner": "4503fa26-2bda-4815-905a-eaa1bf763cf7",
+              "bounds": {
+                "x": -705.5,
+                "y": 233.5,
+                "width": 209,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "datetime",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "03affa92-014e-42bc-bcac-4d775944df5c": {
+              "id": "03affa92-014e-42bc-bcac-4d775944df5c",
+              "name": "texto",
+              "type": "ClassAttribute",
+              "owner": "4503fa26-2bda-4815-905a-eaa1bf763cf7",
+              "bounds": {
+                "x": -705.5,
+                "y": 263.5,
+                "width": 209,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "05be0595-27e3-412f-8154-867455ddb2d3": {
+              "id": "05be0595-27e3-412f-8154-867455ddb2d3",
+              "name": "Pais",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -16,
+                "y": -430,
+                "width": 160,
+                "height": 100
+              },
+              "attributes": [
+                "73785606-85f7-4799-a7fa-376e57148300",
+                "732eb2a9-cf2b-4e44-906a-b7a8c79afebe"
+              ],
+              "methods": []
+            },
+            "73785606-85f7-4799-a7fa-376e57148300": {
+              "id": "73785606-85f7-4799-a7fa-376e57148300",
+              "name": "codPais",
+              "type": "ClassAttribute",
+              "owner": "05be0595-27e3-412f-8154-867455ddb2d3",
+              "bounds": {
+                "x": -15.5,
+                "y": -389.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "732eb2a9-cf2b-4e44-906a-b7a8c79afebe": {
+              "id": "732eb2a9-cf2b-4e44-906a-b7a8c79afebe",
+              "name": "nombre",
+              "type": "ClassAttribute",
+              "owner": "05be0595-27e3-412f-8154-867455ddb2d3",
+              "bounds": {
+                "x": -15.5,
+                "y": -359.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "40531cd5-ba57-4ef0-97b8-471244cdde09": {
+              "id": "40531cd5-ba57-4ef0-97b8-471244cdde09",
+              "name": "Marca",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": 380,
+                "y": 164,
+                "width": 160,
+                "height": 100
+              },
+              "attributes": [
+                "f98f4a38-3cc9-400c-9105-1c6a94ea2976",
+                "09660f08-ed82-43cb-8552-f497c88ee317"
+              ],
+              "methods": []
+            },
+            "f98f4a38-3cc9-400c-9105-1c6a94ea2976": {
+              "id": "f98f4a38-3cc9-400c-9105-1c6a94ea2976",
+              "name": "codMarca",
+              "type": "ClassAttribute",
+              "owner": "40531cd5-ba57-4ef0-97b8-471244cdde09",
+              "bounds": {
+                "x": 380.5,
+                "y": 204.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "09660f08-ed82-43cb-8552-f497c88ee317": {
+              "id": "09660f08-ed82-43cb-8552-f497c88ee317",
+              "name": "nombre",
+              "type": "ClassAttribute",
+              "owner": "40531cd5-ba57-4ef0-97b8-471244cdde09",
+              "bounds": {
+                "x": 380.5,
+                "y": 234.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "9a8cb7b7-482f-4305-966d-030d83e9b294": {
+              "id": "9a8cb7b7-482f-4305-966d-030d83e9b294",
+              "name": "Modelo",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": 388,
+                "y": -26,
+                "width": 160,
+                "height": 100
+              },
+              "attributes": [
+                "a6999988-1268-443e-aa12-382466f329c3",
+                "43695419-6ee1-4b89-a5f0-49951d467bcd"
+              ],
+              "methods": []
+            },
+            "a6999988-1268-443e-aa12-382466f329c3": {
+              "id": "a6999988-1268-443e-aa12-382466f329c3",
+              "name": "codModelo",
+              "type": "ClassAttribute",
+              "owner": "9a8cb7b7-482f-4305-966d-030d83e9b294",
+              "bounds": {
+                "x": 388.5,
+                "y": 14.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "43695419-6ee1-4b89-a5f0-49951d467bcd": {
+              "id": "43695419-6ee1-4b89-a5f0-49951d467bcd",
+              "name": "nombre",
+              "type": "ClassAttribute",
+              "owner": "9a8cb7b7-482f-4305-966d-030d83e9b294",
+              "bounds": {
+                "x": 388.5,
+                "y": 44.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "36d71521-4a21-400d-a7a8-b64429d8e691": {
+              "id": "36d71521-4a21-400d-a7a8-b64429d8e691",
+              "name": "Localidad",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": 313,
+                "y": -222,
+                "width": 200,
+                "height": 100
+              },
+              "attributes": [
+                "9a0f2d73-b845-4363-895d-252347d9d40e",
+                "6213ccb7-c8c7-4664-9950-fef1503fe727"
+              ],
+              "methods": []
+            },
+            "9a0f2d73-b845-4363-895d-252347d9d40e": {
+              "id": "9a0f2d73-b845-4363-895d-252347d9d40e",
+              "name": "codLocalidad",
+              "type": "ClassAttribute",
+              "owner": "36d71521-4a21-400d-a7a8-b64429d8e691",
+              "bounds": {
+                "x": 313.5,
+                "y": -181.5,
+                "width": 199,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "6213ccb7-c8c7-4664-9950-fef1503fe727": {
+              "id": "6213ccb7-c8c7-4664-9950-fef1503fe727",
+              "name": "nombre",
+              "type": "ClassAttribute",
+              "owner": "36d71521-4a21-400d-a7a8-b64429d8e691",
+              "bounds": {
+                "x": 313.5,
+                "y": -151.5,
+                "width": 199,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "3387eda4-9375-4262-94df-247d254436da": {
+              "id": "3387eda4-9375-4262-94df-247d254436da",
+              "name": "Provincia",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": 310,
+                "y": -428,
+                "width": 190,
+                "height": 100
+              },
+              "attributes": [
+                "fecb2e04-b46b-40e4-8853-4a77576862b7",
+                "71b07a29-856d-4479-8704-e8eeea581c1f"
+              ],
+              "methods": []
+            },
+            "fecb2e04-b46b-40e4-8853-4a77576862b7": {
+              "id": "fecb2e04-b46b-40e4-8853-4a77576862b7",
+              "name": "codProvincia",
+              "type": "ClassAttribute",
+              "owner": "3387eda4-9375-4262-94df-247d254436da",
+              "bounds": {
+                "x": 310.5,
+                "y": -387.5,
+                "width": 189,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "71b07a29-856d-4479-8704-e8eeea581c1f": {
+              "id": "71b07a29-856d-4479-8704-e8eeea581c1f",
+              "name": "nombre",
+              "type": "ClassAttribute",
+              "owner": "3387eda4-9375-4262-94df-247d254436da",
+              "bounds": {
+                "x": 310.5,
+                "y": -357.5,
+                "width": 189,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "2acd7003-0b21-4bb2-806a-78d384fca910": {
+              "id": "2acd7003-0b21-4bb2-806a-78d384fca910",
+              "name": "Viajero",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -306,
+                "y": -360,
+                "width": 260,
+                "height": 100
+              },
+              "attributes": [
+                "5220a90d-de43-4670-adda-cf309f6b7106",
+                "fad8a0b8-5f0f-429e-9457-a2156b509a9c"
+              ],
+              "methods": []
+            },
+            "5220a90d-de43-4670-adda-cf309f6b7106": {
+              "id": "5220a90d-de43-4670-adda-cf309f6b7106",
+              "name": "codViajero",
+              "type": "ClassAttribute",
+              "owner": "2acd7003-0b21-4bb2-806a-78d384fca910",
+              "bounds": {
+                "x": -305.5,
+                "y": -319.5,
+                "width": 259,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "fad8a0b8-5f0f-429e-9457-a2156b509a9c": {
+              "id": "fad8a0b8-5f0f-429e-9457-a2156b509a9c",
+              "name": "fechaHoraAceptacion",
+              "type": "ClassAttribute",
+              "owner": "2acd7003-0b21-4bb2-806a-78d384fca910",
+              "bounds": {
+                "x": -305.5,
+                "y": -289.5,
+                "width": 259,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "datetime",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            }
+          },
+          "relationships": {
+            "84d41f54-d5ba-444c-872e-4ff2edae1431": {
+              "id": "84d41f54-d5ba-444c-872e-4ff2edae1431",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -513,
+                "y": -154.5,
+                "width": 241,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 241,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Upleft",
+                "element": "c15d8177-4544-4d3f-a4a3-ef77c1479529",
+                "multiplicity": "0..*",
+                "role": "viajes"
+              },
+              "target": {
+                "direction": "Upright",
+                "element": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+                "multiplicity": "1..1",
+                "role": "conductor"
+              },
+              "isManuallyLayouted": false
+            },
+            "c47c379e-918b-4c2f-968b-00c2ca4d1a33": {
+              "id": "c47c379e-918b-4c2f-968b-00c2ca4d1a33",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -139.8046875,
+                "y": -41,
+                "width": 96.4921875,
+                "height": 230
+              },
+              "path": [
+                {
+                  "x": 64.8046875,
+                  "y": 0
+                },
+                {
+                  "x": 64.8046875,
+                  "y": 221
+                }
+              ],
+              "source": {
+                "direction": "Bottomleft",
+                "element": "c15d8177-4544-4d3f-a4a3-ef77c1479529",
+                "multiplicity": "0..*",
+                "role": "viajes"
+              },
+              "target": {
+                "direction": "Topleft",
+                "element": "eb2334d2-da57-4167-aa53-cd5a97178e5c",
+                "multiplicity": "1..1",
+                "role": "vehiculo"
+              },
+              "isManuallyLayouted": false
+            },
+            "b8666cc7-5430-4b3f-be41-1fee0e0c3a5a": {
+              "id": "b8666cc7-5430-4b3f-be41-1fee0e0c3a5a",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -206,
+                "y": -41,
+                "width": 34.7890625,
+                "height": 99
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 90
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Topleft",
+                "element": "3b8476eb-1b19-4ab1-b1f9-a9a7279ec81a",
+                "multiplicity": "0..*",
+                "role": ""
+              },
+              "target": {
+                "direction": "Bottomright",
+                "element": "c15d8177-4544-4d3f-a4a3-ef77c1479529",
+                "multiplicity": "0..*",
+                "role": ""
+              },
+              "isManuallyLayouted": false
+            },
+            "e6de62a0-cb1a-4f4a-b626-20d65192c559": {
+              "id": "e6de62a0-cb1a-4f4a-b626-20d65192c559",
+              "name": "",
+              "type": "ClassComposition",
+              "owner": null,
+              "bounds": {
+                "x": -496,
+                "y": -91,
+                "width": 224,
+                "height": 302
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 264
+                },
+                {
+                  "x": 112,
+                  "y": 264
+                },
+                {
+                  "x": 112,
+                  "y": 10
+                },
+                {
+                  "x": 224,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Upright",
+                "element": "4503fa26-2bda-4815-905a-eaa1bf763cf7",
+                "multiplicity": "0..*",
+                "role": "mensajes"
+              },
+              "target": {
+                "direction": "Downleft",
+                "element": "c15d8177-4544-4d3f-a4a3-ef77c1479529",
+                "multiplicity": "1..1",
+                "role": "viaje"
+              },
+              "isManuallyLayouted": false
+            },
+            "410ba144-8f61-4877-b0b8-792a23f95813": {
+              "id": "410ba144-8f61-4877-b0b8-792a23f95813",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -704.03125,
+                "y": -88,
+                "width": 132.71875,
+                "height": 230
+              },
+              "path": [
+                {
+                  "x": 101.03125,
+                  "y": 221
+                },
+                {
+                  "x": 101.03125,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Topright",
+                "element": "4503fa26-2bda-4815-905a-eaa1bf763cf7",
+                "multiplicity": "0..*",
+                "role": "mensEscritos"
+              },
+              "target": {
+                "direction": "Bottomright",
+                "element": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+                "multiplicity": "1..1",
+                "role": "origen"
+              },
+              "isManuallyLayouted": false
+            },
+            "f7386aba-05c2-497f-bbea-f47d9d0c9f53": {
+              "id": "f7386aba-05c2-497f-bbea-f47d9d0c9f53",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -823.390625,
+                "y": -168,
+                "width": 130.390625,
+                "height": 459
+              },
+              "path": [
+                {
+                  "x": 117.390625,
+                  "y": 421
+                },
+                {
+                  "x": 77.390625,
+                  "y": 421
+                },
+                {
+                  "x": 77.390625,
+                  "y": 10
+                },
+                {
+                  "x": 130.390625,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Downleft",
+                "element": "4503fa26-2bda-4815-905a-eaa1bf763cf7",
+                "multiplicity": "0..*",
+                "role": "mensRecibidos"
+              },
+              "target": {
+                "direction": "Downleft",
+                "element": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+                "multiplicity": "1..1",
+                "role": "destino"
+              },
+              "isManuallyLayouted": false
+            },
+            "91567de1-0e90-4232-a1d1-05b2fae76e77": {
+              "id": "91567de1-0e90-4232-a1d1-05b2fae76e77",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -563,
+                "y": -415,
+                "width": 547,
+                "height": 56
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 47
+                },
+                {
+                  "x": 5,
+                  "y": 10
+                },
+                {
+                  "x": 547,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Topright",
+                "element": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+                "multiplicity": "0..*",
+                "role": ""
+              },
+              "target": {
+                "direction": "Upleft",
+                "element": "05be0595-27e3-412f-8154-867455ddb2d3",
+                "multiplicity": "1..1",
+                "role": "nacionalidad"
+              },
+              "isManuallyLayouted": false
+            },
+            "f6ae67b3-6950-4124-83a8-aef61e3e75f5": {
+              "id": "f6ae67b3-6950-4124-83a8-aef61e3e75f5",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -616.4921875,
+                "y": -88,
+                "width": 488.4921875,
+                "height": 401
+              },
+              "path": [
+                {
+                  "x": 58.4921875,
+                  "y": 0
+                },
+                {
+                  "x": 58.4921875,
+                  "y": 363
+                },
+                {
+                  "x": 488.4921875,
+                  "y": 363
+                }
+              ],
+              "source": {
+                "direction": "Bottomright",
+                "element": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+                "multiplicity": "1..1",
+                "role": "duenho"
+              },
+              "target": {
+                "direction": "Left",
+                "element": "eb2334d2-da57-4167-aa53-cd5a97178e5c",
+                "multiplicity": "1..*",
+                "role": "vehiculos"
+              },
+              "isManuallyLayouted": false
+            },
+            "fc0e14d0-33b2-432b-86ce-9326f9b87c96": {
+              "id": "fc0e14d0-33b2-432b-86ce-9326f9b87c96",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": 92,
+                "y": 212,
+                "width": 288,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 288,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Upright",
+                "element": "eb2334d2-da57-4167-aa53-cd5a97178e5c",
+                "multiplicity": "0..*",
+                "role": ""
+              },
+              "target": {
+                "direction": "Left",
+                "element": "40531cd5-ba57-4ef0-97b8-471244cdde09",
+                "multiplicity": "1..1",
+                "role": "marca"
+              },
+              "isManuallyLayouted": false
+            },
+            "de5c3226-34ca-4b0e-bb5f-5ca06f9217a4": {
+              "id": "de5c3226-34ca-4b0e-bb5f-5ca06f9217a4",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": 406.421875,
+                "y": 74,
+                "width": 89.265625,
+                "height": 99
+              },
+              "path": [
+                {
+                  "x": 57.578125,
+                  "y": 90
+                },
+                {
+                  "x": 57.578125,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "40531cd5-ba57-4ef0-97b8-471244cdde09",
+                "multiplicity": "0..*",
+                "role": ""
+              },
+              "target": {
+                "direction": "Down",
+                "element": "9a8cb7b7-482f-4305-966d-030d83e9b294",
+                "multiplicity": "1..1",
+                "role": "modelo"
+              },
+              "isManuallyLayouted": false
+            },
+            "80aaa000-0d6a-4e3d-bdb1-8396026230d0": {
+              "id": "80aaa000-0d6a-4e3d-bdb1-8396026230d0",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -22,
+                "y": -171.5,
+                "width": 335,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 335,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Upright",
+                "element": "c15d8177-4544-4d3f-a4a3-ef77c1479529",
+                "multiplicity": "0..*",
+                "role": ""
+              },
+              "target": {
+                "direction": "Upleft",
+                "element": "36d71521-4a21-400d-a7a8-b64429d8e691",
+                "multiplicity": "1..1",
+                "role": "origen"
+              },
+              "isManuallyLayouted": false
+            },
+            "be28d4bc-db73-42b1-90da-16a06b0e3b69": {
+              "id": "be28d4bc-db73-42b1-90da-16a06b0e3b69",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -22,
+                "y": -122,
+                "width": 416.6875,
+                "height": 79
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 41
+                },
+                {
+                  "x": 385,
+                  "y": 41
+                },
+                {
+                  "x": 385,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Downright",
+                "element": "c15d8177-4544-4d3f-a4a3-ef77c1479529",
+                "multiplicity": "0..*",
+                "role": ""
+              },
+              "target": {
+                "direction": "Bottomleft",
+                "element": "36d71521-4a21-400d-a7a8-b64429d8e691",
+                "multiplicity": "1..1",
+                "role": "destino"
+              },
+              "isManuallyLayouted": false
+            },
+            "9153a86b-2226-4bcf-a0d5-065681dea178": {
+              "id": "9153a86b-2226-4bcf-a0d5-065681dea178",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": 337.3671875,
+                "y": -328,
+                "width": 100.8203125,
+                "height": 115
+              },
+              "path": [
+                {
+                  "x": 69.1328125,
+                  "y": 106
+                },
+                {
+                  "x": 69.1328125,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "36d71521-4a21-400d-a7a8-b64429d8e691",
+                "multiplicity": "0..*",
+                "role": ""
+              },
+              "target": {
+                "direction": "Down",
+                "element": "3387eda4-9375-4262-94df-247d254436da",
+                "multiplicity": "1..1",
+                "role": "provincia"
+              },
+              "isManuallyLayouted": false
+            },
+            "3d0c7ac9-e7b2-433c-899e-29c2ffc2c67f": {
+              "id": "3d0c7ac9-e7b2-433c-899e-29c2ffc2c67f",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": 144,
+                "y": -389,
+                "width": 166,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 166,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Upleft",
+                "element": "3387eda4-9375-4262-94df-247d254436da",
+                "multiplicity": "0..*",
+                "role": ""
+              },
+              "target": {
+                "direction": "Right",
+                "element": "05be0595-27e3-412f-8154-867455ddb2d3",
+                "multiplicity": "1..1",
+                "role": "pais"
+              },
+              "isManuallyLayouted": false
+            },
+            "71e3bee3-147e-45fe-aa77-91aff588181c": {
+              "id": "71e3bee3-147e-45fe-aa77-91aff588181c",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -513,
+                "y": -320,
+                "width": 207,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 207,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Upleft",
+                "element": "2acd7003-0b21-4bb2-806a-78d384fca910",
+                "multiplicity": "0..*",
+                "role": ""
+              },
+              "target": {
+                "direction": "Upright",
+                "element": "90edfd2f-4c18-4faa-884e-851c2878df9a",
+                "multiplicity": "1..1",
+                "role": "pasajero"
+              },
+              "isManuallyLayouted": false
+            },
+            "fcc0d455-42c9-4cc7-b1e5-44ee0e084808": {
+              "id": "fcc0d455-42c9-4cc7-b1e5-44ee0e084808",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -198.0078125,
+                "y": -260,
+                "width": 70.6953125,
+                "height": 68
+              },
+              "path": [
+                {
+                  "x": 39.0078125,
+                  "y": 0
+                },
+                {
+                  "x": 39.0078125,
+                  "y": 59
+                }
+              ],
+              "source": {
+                "direction": "Down",
+                "element": "2acd7003-0b21-4bb2-806a-78d384fca910",
+                "multiplicity": "0..*",
+                "role": ""
+              },
+              "target": {
+                "direction": "Topleft",
+                "element": "c15d8177-4544-4d3f-a4a3-ef77c1479529",
+                "multiplicity": "1..1",
+                "role": "viaje"
+              },
+              "isManuallyLayouted": false
+            }
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-22T14:43:49.123Z"
+      }
+    ],
+    "ObjectDiagram": [
+      {
+        "id": "1cbe65b9-f32c-41ac-a9c7-715f4cb0e98d",
+        "title": "Object Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ObjectDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-22T13:23:27.149Z"
+      }
+    ],
+    "StateMachineDiagram": [
+      {
+        "id": "5c37a771-c77b-4c59-ac23-f64764c6efd5",
+        "title": "State Machine Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "StateMachineDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-22T13:23:27.150Z"
+      }
+    ],
+    "AgentDiagram": [
+      {
+        "id": "5be6f568-dccb-4c1b-9b83-91c9134994c1",
+        "title": "Agent Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "AgentDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-22T13:23:27.150Z"
+      }
+    ],
+    "UserDiagram": [
+      {
+        "id": "0754cf32-49b7-48af-ba25-9a59d88a63c5",
+        "title": "User Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "UserDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-22T13:23:27.150Z"
+      }
+    ],
+    "GUINoCodeDiagram": [
+      {
+        "id": "3ae5575d-44df-4c8f-a8b5-65d009733036",
+        "title": "GUI Diagram",
+        "model": {
+          "pages": [
+            {
+              "name": "Home",
+              "frames": [
+                {
+                  "component": {
+                    "type": "wrapper",
+                    "stylable": [
+                      "background",
+                      "background-color",
+                      "background-image",
+                      "background-repeat",
+                      "background-attachment",
+                      "background-position",
+                      "background-size"
+                    ],
+                    "components": [],
+                    "head": {
+                      "type": "head"
+                    },
+                    "docEl": {
+                      "tagName": "html"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "styles": [],
+          "assets": [],
+          "symbols": [],
+          "version": "0.21.13"
+        },
+        "lastUpdate": "2026-09-22T13:23:27.150Z"
+      }
+    ],
+    "QuantumCircuitDiagram": [
+      {
+        "id": "a834b4c3-7241-47a7-a154-85315889c88d",
+        "title": "Quantum Circuit",
+        "model": {
+          "cols": [],
+          "gates": [],
+          "gateMetadata": {},
+          "initialStates": [],
+          "version": "1.0.0"
+        },
+        "lastUpdate": "2026-09-22T13:23:27.150Z"
+      }
+    ],
+    "NNDiagram": [
+      {
+        "id": "1ec775fb-7718-4059-a9ce-82917c859f9f",
+        "title": "NN Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "NNDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-22T13:23:27.150Z"
+      }
+    ],
+    "BPMN": [
+      {
+        "id": "dfcee7a4-7607-4f4d-ab87-bf1a12464eb9",
+        "title": "BPMN Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "BPMNDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-22T13:23:27.150Z"
+      }
+    ]
+  },
+  "settings": {
+    "defaultDiagramType": "ClassDiagram",
+    "autoSave": true,
+    "collaborationEnabled": false,
+    "perspectives": {
+      "ClassDiagram": true,
+      "ObjectDiagram": true,
+      "StateMachineDiagram": true,
+      "AgentDiagram": true,
+      "UserDiagram": true,
+      "GUINoCodeDiagram": true,
+      "QuantumCircuitDiagram": true,
+      "NNDiagram": true,
+      "BPMN": true
+    }
+  }
+}
