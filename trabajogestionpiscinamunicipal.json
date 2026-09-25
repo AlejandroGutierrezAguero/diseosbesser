@@ -1,0 +1,263 @@
+{
+  "id": "efd06e73-83f9-4557-827c-6cf8a063165b",
+  "type": "Project",
+  "schemaVersion": 4,
+  "name": "TrabajoGestionPiscinaMunicipal",
+  "description": "Trabajo individual de la asignatura BBDD Avanzadas.",
+  "owner": "BESSER User",
+  "createdAt": "2026-09-25T11:49:45.908Z",
+  "currentDiagramType": "ClassDiagram",
+  "currentDiagramIndices": {
+    "ClassDiagram": 0,
+    "ObjectDiagram": 0,
+    "StateMachineDiagram": 0,
+    "AgentDiagram": 0,
+    "UserDiagram": 0,
+    "GUINoCodeDiagram": 0,
+    "QuantumCircuitDiagram": 0,
+    "NNDiagram": 0,
+    "BPMN": 0
+  },
+  "diagrams": {
+    "ClassDiagram": [
+      {
+        "id": "1e25dc76-4fee-425a-96f7-a55c51a21e9a",
+        "title": "Class Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ClassDiagram",
+          "size": {
+            "width": 1020,
+            "height": 680
+          },
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "elements": {
+            "a391adbb-a351-4cd7-b27f-184228125eb3": {
+              "id": "a391adbb-a351-4cd7-b27f-184228125eb3",
+              "name": "Usuario",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -490,
+                "y": -320,
+                "width": 160,
+                "height": 40
+              },
+              "attributes": [],
+              "methods": []
+            }
+          },
+          "relationships": {},
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-25T11:52:02.475Z"
+      }
+    ],
+    "ObjectDiagram": [
+      {
+        "id": "77fb04ca-cc38-4dd6-bd9e-a522f8c6ac38",
+        "title": "Object Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "ObjectDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-25T11:49:45.908Z"
+      }
+    ],
+    "StateMachineDiagram": [
+      {
+        "id": "fc8b83bc-17a7-415f-84a6-8ca64fa2c289",
+        "title": "State Machine Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "StateMachineDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-25T11:49:45.908Z"
+      }
+    ],
+    "AgentDiagram": [
+      {
+        "id": "eeaf4c94-98ad-4ff0-aeb1-41accbd7e38e",
+        "title": "Agent Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "AgentDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-25T11:49:45.908Z"
+      }
+    ],
+    "UserDiagram": [
+      {
+        "id": "b554014a-8466-4a03-9e7b-904a6d947ccb",
+        "title": "User Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "UserDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-25T11:49:45.908Z"
+      }
+    ],
+    "GUINoCodeDiagram": [
+      {
+        "id": "5b6066c2-397e-4bb4-90fe-74f0f386aca0",
+        "title": "GUI Diagram",
+        "model": {
+          "pages": [
+            {
+              "name": "Home",
+              "frames": [
+                {
+                  "component": {
+                    "type": "wrapper",
+                    "stylable": [
+                      "background",
+                      "background-color",
+                      "background-image",
+                      "background-repeat",
+                      "background-attachment",
+                      "background-position",
+                      "background-size"
+                    ],
+                    "components": [],
+                    "head": {
+                      "type": "head"
+                    },
+                    "docEl": {
+                      "tagName": "html"
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "styles": [],
+          "assets": [],
+          "symbols": [],
+          "version": "0.21.13"
+        },
+        "lastUpdate": "2026-09-25T11:49:45.908Z"
+      }
+    ],
+    "QuantumCircuitDiagram": [
+      {
+        "id": "38a79cc1-d615-4125-a4a8-27b23875d705",
+        "title": "Quantum Circuit",
+        "model": {
+          "cols": [],
+          "gates": [],
+          "gateMetadata": {},
+          "initialStates": [],
+          "version": "1.0.0"
+        },
+        "lastUpdate": "2026-09-25T11:49:45.908Z"
+      }
+    ],
+    "NNDiagram": [
+      {
+        "id": "db8cfe1b-77e0-40d0-be48-25b9df56d597",
+        "title": "NN Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "NNDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-25T11:49:45.908Z"
+      }
+    ],
+    "BPMN": [
+      {
+        "id": "01169d7a-9942-4ad9-8d30-e83f46d66322",
+        "title": "BPMN Diagram",
+        "model": {
+          "version": "3.0.0",
+          "type": "BPMNDiagram",
+          "size": {
+            "width": 1400,
+            "height": 740
+          },
+          "elements": {},
+          "relationships": {},
+          "interactive": {
+            "elements": {},
+            "relationships": {}
+          },
+          "assessments": {}
+        },
+        "lastUpdate": "2026-09-25T11:49:45.908Z"
+      }
+    ]
+  },
+  "settings": {
+    "defaultDiagramType": "ClassDiagram",
+    "autoSave": true,
+    "collaborationEnabled": false,
+    "perspectives": {
+      "ClassDiagram": true,
+      "ObjectDiagram": true,
+      "StateMachineDiagram": true,
+      "AgentDiagram": true,
+      "UserDiagram": true,
+      "GUINoCodeDiagram": true,
+      "QuantumCircuitDiagram": true,
+      "NNDiagram": true,
+      "BPMN": true
+    }
+  }
+}
