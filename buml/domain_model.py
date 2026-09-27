@@ -22,10 +22,8 @@ Rol: Enumeration = Enumeration(
 )
 
 # Classes
-Usuario = Class(name="Usuario", metadata=Metadata(description="email like \'%@%\' -----------------------------\ntelefono 9 dígitos -----------------------------------\nDNI like [0-9]{8}[A-Z] ---------------------------\nfechaNac < fechaAlta < fechaBaja"))
-Abono = Class(name="Abono", metadata=Metadata(description="Si familiar es false, el abono solo puede tener un abonado. ----------------------------\nfechaIni < fechaFin -------------------------------\ncoste >= 0 ----------------------------------\ncc 24 dígitos"))
 TipoAbono = Class(name="TipoAbono", metadata=Metadata(description="duracion >= 1\nprecioIndividual >= 0\nprecioFamiliar >= 0"))
-Curso = Class(name="Curso", metadata=Metadata(description="fechaIni < fechaFin\nprecio >= 0"))
+Curso = Class(name="Curso", metadata=Metadata(description="fechaIni < fechaFin\nprecio >= 0 -----------------\nUn curso no puede tener más clientes que aforo"))
 TipoCurso = Class(name="TipoCurso", metadata=Metadata(description="aforo > 0\nprecio >= 0\nedadMin >= 0\nedad Max >= 1"))
 Empleado = Class(name="Empleado", metadata=Metadata(description="cc 24 dígitos"))
 Proceso = Class(name="Proceso", metadata=Metadata(description="fechaIni < fechaFin"))
@@ -33,32 +31,12 @@ TipoProceso = Class(name="TipoProceso")
 Frecuencia = Class(name="Frecuencia", metadata=Metadata(description="unidad in (\'d\', \'s\', m\', a\')\ncantidad >= 0"))
 Fecha = Class(name="Fecha", metadata=Metadata(description="01 <= dia <= 31\n01 <= mes <= 12"))
 Cliente = Class(name="Cliente")
-
-# Usuario class attributes and methods
-Usuario_telefono: Property = Property(name="telefono", type=StringType)
-Usuario_DNI: Property = Property(name="DNI", type=StringType, is_external_id=True)
-Usuario_fechaNac: Property = Property(name="fechaNac", type=DateType)
-Usuario_fechaAlta: Property = Property(name="fechaAlta", type=DateType)
-Usuario_fechaBaja: Property = Property(name="fechaBaja", type=DateType, is_optional=True)
-Usuario_idUsuario: Property = Property(name="idUsuario", type=IntegerType, is_id=True)
-Usuario_nombre: Property = Property(name="nombre", type=StringType)
-Usuario_apellido1: Property = Property(name="apellido1", type=StringType)
-Usuario_apellido2: Property = Property(name="apellido2", type=StringType, is_optional=True)
-Usuario_email: Property = Property(name="email", type=StringType)
-Usuario.attributes={Usuario_DNI, Usuario_apellido1, Usuario_apellido2, Usuario_email, Usuario_fechaAlta, Usuario_fechaBaja, Usuario_fechaNac, Usuario_idUsuario, Usuario_nombre, Usuario_telefono}
-
-# Abono class attributes and methods
-Abono_idAbono: Property = Property(name="idAbono", type=IntegerType, is_id=True)
-Abono_fechaIni: Property = Property(name="fechaIni", type=DateType)
-Abono_fechaFin: Property = Property(name="fechaFin", type=DateType)
-Abono_coste: Property = Property(name="coste", type=FloatType)
-Abono_cc: Property = Property(name="cc", type=StringType)
-Abono_familiar: Property = Property(name="familiar", type=BooleanType)
-Abono.attributes={Abono_cc, Abono_coste, Abono_familiar, Abono_fechaFin, Abono_fechaIni, Abono_idAbono}
+Usuario = Class(name="Usuario", metadata=Metadata(description="email like \'%@%\' -----------------------------\ntelefono 9 dígitos -----------------------------------\nDNI like [0-9]{8}[A-Z] ---------------------------\nfechaNac < fechaAlta < fechaBaja"))
+Abono = Class(name="Abono", metadata=Metadata(description="Si familiar es false, el abono solo puede tener un abonado ----------------------------\nfechaIni < fechaFin -------------------------------\ncoste >= 0 ----------------------------------\ncc 24 dígitos"))
 
 # TipoAbono class attributes and methods
 TipoAbono_idTipoAbono: Property = Property(name="idTipoAbono", type=IntegerType, is_id=True)
-TipoAbono_duracion: Property = Property(name="duracion", type=IntegerType)
+TipoAbono_duracion: Property = Property(name="duracion", type=IntegerType, is_external_id=True)
 TipoAbono_precioIndividual: Property = Property(name="precioIndividual", type=FloatType)
 TipoAbono_precioFamiliar: Property = Property(name="precioFamiliar", type=FloatType)
 TipoAbono.attributes={TipoAbono_duracion, TipoAbono_idTipoAbono, TipoAbono_precioFamiliar, TipoAbono_precioIndividual}
@@ -69,7 +47,8 @@ Curso_nombre: Property = Property(name="nombre", type=StringType)
 Curso_fechaIni: Property = Property(name="fechaIni", type=DateType)
 Curso_fechaFin: Property = Property(name="fechaFin", type=DateType)
 Curso_precio: Property = Property(name="precio", type=FloatType)
-Curso.attributes={Curso_fechaFin, Curso_fechaIni, Curso_idCurso, Curso_nombre, Curso_precio}
+Curso_plazas: Property = Property(name="plazas", type=IntegerType, is_derived=True)
+Curso.attributes={Curso_fechaFin, Curso_fechaIni, Curso_idCurso, Curso_nombre, Curso_plazas, Curso_precio}
 
 # TipoCurso class attributes and methods
 TipoCurso_idTipoCurso: Property = Property(name="idTipoCurso", type=IntegerType, is_id=True)
@@ -87,10 +66,10 @@ Empleado_rol: Property = Property(name="rol", type=Rol)
 Empleado.attributes={Empleado_cc, Empleado_rol}
 
 # Proceso class attributes and methods
+Proceso_observaciones: Property = Property(name="observaciones", type=StringType, is_optional=True)
 Proceso_idProceso: Property = Property(name="idProceso", type=IntegerType, is_id=True)
 Proceso_fechaIni: Property = Property(name="fechaIni", type=DateType)
 Proceso_fechaFin: Property = Property(name="fechaFin", type=DateType)
-Proceso_observaciones: Property = Property(name="observaciones", type=StringType, is_optional=True)
 Proceso.attributes={Proceso_fechaFin, Proceso_fechaIni, Proceso_idProceso, Proceso_observaciones}
 
 # TipoProceso class attributes and methods
@@ -112,7 +91,43 @@ Fecha.attributes={Fecha_dia, Fecha_mes}
 
 # Cliente class attributes and methods
 
+# Usuario class attributes and methods
+Usuario_idUsuario: Property = Property(name="idUsuario", type=IntegerType, is_id=True)
+Usuario_nombre: Property = Property(name="nombre", type=StringType)
+Usuario_apellido1: Property = Property(name="apellido1", type=StringType)
+Usuario_apellido2: Property = Property(name="apellido2", type=StringType, is_optional=True)
+Usuario_email: Property = Property(name="email", type=StringType)
+Usuario_telefono: Property = Property(name="telefono", type=StringType)
+Usuario_DNI: Property = Property(name="DNI", type=StringType, is_external_id=True)
+Usuario_fechaNac: Property = Property(name="fechaNac", type=DateType)
+Usuario_fechaAlta: Property = Property(name="fechaAlta", type=DateType)
+Usuario_fechaBaja: Property = Property(name="fechaBaja", type=DateType, is_optional=True)
+Usuario.attributes={Usuario_DNI, Usuario_apellido1, Usuario_apellido2, Usuario_email, Usuario_fechaAlta, Usuario_fechaBaja, Usuario_fechaNac, Usuario_idUsuario, Usuario_nombre, Usuario_telefono}
+
+# Abono class attributes and methods
+Abono_idAbono: Property = Property(name="idAbono", type=IntegerType, is_id=True)
+Abono_fechaIni: Property = Property(name="fechaIni", type=DateType)
+Abono_fechaFin: Property = Property(name="fechaFin", type=DateType)
+Abono_coste: Property = Property(name="coste", type=FloatType)
+Abono_cc: Property = Property(name="cc", type=StringType)
+Abono_familiar: Property = Property(name="familiar", type=BooleanType)
+Abono.attributes={Abono_cc, Abono_coste, Abono_familiar, Abono_fechaFin, Abono_fechaIni, Abono_idAbono}
+
 # Relationships
+Abono_TipoAbono: BinaryAssociation = BinaryAssociation(
+    name="Abono_TipoAbono",
+    ends={
+        Property(name="abonos", type=Abono, multiplicity=Multiplicity(0, 9999)),
+        Property(name="tipoAbono", type=TipoAbono, multiplicity=Multiplicity(1, 1))
+    }
+)
+Curso_TipoCurso: BinaryAssociation = BinaryAssociation(
+    name="Curso_TipoCurso",
+    ends={
+        Property(name="cursos", type=Curso, multiplicity=Multiplicity(0, 9999)),
+        Property(name="tipoCurso", type=TipoCurso, multiplicity=Multiplicity(1, 1))
+    }
+)
 TipoProceso_Frecuencia: BinaryAssociation = BinaryAssociation(
     name="TipoProceso_Frecuencia",
     ends={
@@ -139,20 +154,6 @@ Proceso_Empleado: BinaryAssociation = BinaryAssociation(
     ends={
         Property(name="procesos", type=Proceso, multiplicity=Multiplicity(0, 9999)),
         Property(name="empleados", type=Empleado, multiplicity=Multiplicity(0, 9999))
-    }
-)
-Abono_TipoAbono: BinaryAssociation = BinaryAssociation(
-    name="Abono_TipoAbono",
-    ends={
-        Property(name="abonos", type=Abono, multiplicity=Multiplicity(0, 9999)),
-        Property(name="tipoAbono", type=TipoAbono, multiplicity=Multiplicity(1, 1))
-    }
-)
-Curso_TipoCurso: BinaryAssociation = BinaryAssociation(
-    name="Curso_TipoCurso",
-    ends={
-        Property(name="cursos", type=Curso, multiplicity=Multiplicity(0, 9999)),
-        Property(name="tipoCurso", type=TipoCurso, multiplicity=Multiplicity(1, 1))
     }
 )
 
@@ -202,8 +203,8 @@ SuscripcionAbono = AssociationClass(
 
 
 # Generalizations
-gen_Cliente_Usuario = Generalization(general=Usuario, specific=Cliente)
 gen_Empleado_Usuario = Generalization(general=Usuario, specific=Empleado)
+gen_Cliente_Usuario = Generalization(general=Usuario, specific=Cliente)
 
 # Domain Model
 domain_model_metadata = Metadata(
@@ -212,8 +213,8 @@ domain_model_metadata = Metadata(
 
 domain_model = DomainModel(
     name="Class_Diagram",
-    types={Usuario, Abono, TipoAbono, Curso, TipoCurso, Empleado, Proceso, TipoProceso, Frecuencia, Fecha, Cliente, InscripcionCurso, Monitoreo, SuscripcionAbono, Rol},
-    associations={TipoProceso_Frecuencia, TipoProceso_Fecha, Proceso_TipoProceso, Proceso_Empleado, Abono_TipoAbono, Curso_TipoCurso, Curso_Cliente, Curso_Empleado, Cliente_Abono},
-    generalizations={gen_Cliente_Usuario, gen_Empleado_Usuario},
+    types={TipoAbono, Curso, TipoCurso, Empleado, Proceso, TipoProceso, Frecuencia, Fecha, Cliente, Usuario, Abono, InscripcionCurso, Monitoreo, SuscripcionAbono, Rol},
+    associations={Abono_TipoAbono, Curso_TipoCurso, TipoProceso_Frecuencia, TipoProceso_Fecha, Proceso_TipoProceso, Proceso_Empleado, Curso_Cliente, Curso_Empleado, Cliente_Abono},
+    generalizations={gen_Empleado_Usuario, gen_Cliente_Usuario},
     metadata=domain_model_metadata
 )
