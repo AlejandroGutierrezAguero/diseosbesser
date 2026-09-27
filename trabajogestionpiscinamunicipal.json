@@ -27,8 +27,8 @@
           "version": "3.0.0",
           "type": "ClassDiagram",
           "size": {
-            "width": 1020,
-            "height": 680
+            "width": 1270,
+            "height": 1374
           },
           "interactive": {
             "elements": {},
@@ -41,19 +41,2202 @@
               "type": "Class",
               "owner": null,
               "bounds": {
-                "x": -490,
-                "y": -320,
-                "width": 160,
-                "height": 40
+                "x": -604,
+                "y": -293,
+                "width": 180,
+                "height": 340
               },
-              "attributes": [],
+              "attributes": [
+                "65bcb49b-d008-4fa1-80ac-7527a6ad21f1",
+                "204cf534-c1fb-4e67-a578-1b892de6f320",
+                "c80dbe0e-4076-4da7-835b-9b139734b19b",
+                "0794057b-a3cc-41ea-a17f-9da973017537",
+                "0e2fe3e1-9a54-457c-b360-64e39b8fd13e",
+                "41d85631-01f1-4142-9dc5-4b060efd394f",
+                "eb6c2833-6a27-49c0-a2ce-86bba90a2125",
+                "529ae2a3-edd6-45fa-8d54-184f2dff4ce1",
+                "99b98542-6b03-43d4-bb85-bb8b834d4b9b",
+                "4ff26fed-1b5f-4052-a509-d4194fc768b1"
+              ],
               "methods": []
+            },
+            "65bcb49b-d008-4fa1-80ac-7527a6ad21f1": {
+              "id": "65bcb49b-d008-4fa1-80ac-7527a6ad21f1",
+              "name": "idUsuario",
+              "type": "ClassAttribute",
+              "owner": "a391adbb-a351-4cd7-b27f-184228125eb3",
+              "bounds": {
+                "x": -603.5,
+                "y": -252.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "204cf534-c1fb-4e67-a578-1b892de6f320": {
+              "id": "204cf534-c1fb-4e67-a578-1b892de6f320",
+              "name": "nombre",
+              "type": "ClassAttribute",
+              "owner": "a391adbb-a351-4cd7-b27f-184228125eb3",
+              "bounds": {
+                "x": -603.5,
+                "y": -222.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "c80dbe0e-4076-4da7-835b-9b139734b19b": {
+              "id": "c80dbe0e-4076-4da7-835b-9b139734b19b",
+              "name": "apellido1",
+              "type": "ClassAttribute",
+              "owner": "a391adbb-a351-4cd7-b27f-184228125eb3",
+              "bounds": {
+                "x": -603.5,
+                "y": -192.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "0794057b-a3cc-41ea-a17f-9da973017537": {
+              "id": "0794057b-a3cc-41ea-a17f-9da973017537",
+              "name": "apellido2",
+              "type": "ClassAttribute",
+              "owner": "a391adbb-a351-4cd7-b27f-184228125eb3",
+              "bounds": {
+                "x": -603.5,
+                "y": -162.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": true,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "0e2fe3e1-9a54-457c-b360-64e39b8fd13e": {
+              "id": "0e2fe3e1-9a54-457c-b360-64e39b8fd13e",
+              "name": "email",
+              "type": "ClassAttribute",
+              "owner": "a391adbb-a351-4cd7-b27f-184228125eb3",
+              "bounds": {
+                "x": -603.5,
+                "y": -132.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "41d85631-01f1-4142-9dc5-4b060efd394f": {
+              "id": "41d85631-01f1-4142-9dc5-4b060efd394f",
+              "name": "telefono",
+              "type": "ClassAttribute",
+              "owner": "a391adbb-a351-4cd7-b27f-184228125eb3",
+              "bounds": {
+                "x": -603.5,
+                "y": -102.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "eb6c2833-6a27-49c0-a2ce-86bba90a2125": {
+              "id": "eb6c2833-6a27-49c0-a2ce-86bba90a2125",
+              "name": "DNI",
+              "type": "ClassAttribute",
+              "owner": "a391adbb-a351-4cd7-b27f-184228125eb3",
+              "bounds": {
+                "x": -603.5,
+                "y": -72.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": true
+            },
+            "529ae2a3-edd6-45fa-8d54-184f2dff4ce1": {
+              "id": "529ae2a3-edd6-45fa-8d54-184f2dff4ce1",
+              "name": "fechaNac",
+              "type": "ClassAttribute",
+              "owner": "a391adbb-a351-4cd7-b27f-184228125eb3",
+              "bounds": {
+                "x": -603.5,
+                "y": -42.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "99b98542-6b03-43d4-bb85-bb8b834d4b9b": {
+              "id": "99b98542-6b03-43d4-bb85-bb8b834d4b9b",
+              "name": "fechaAlta",
+              "type": "ClassAttribute",
+              "owner": "a391adbb-a351-4cd7-b27f-184228125eb3",
+              "bounds": {
+                "x": -603.5,
+                "y": -12.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "4ff26fed-1b5f-4052-a509-d4194fc768b1": {
+              "id": "4ff26fed-1b5f-4052-a509-d4194fc768b1",
+              "name": "fechaBaja",
+              "type": "ClassAttribute",
+              "owner": "a391adbb-a351-4cd7-b27f-184228125eb3",
+              "bounds": {
+                "x": -603.5,
+                "y": 17.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": true,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "a7b5823e-b766-4897-8543-5cfc243973f3": {
+              "id": "a7b5823e-b766-4897-8543-5cfc243973f3",
+              "name": "email like '%@%' -----------------------------\ntelefono 9 d\u00edgitos -----------------------------------\nDNI like [0-9]{8}[A-Z] ---------------------------\nfechaNac < fechaAlta < fechaBaja",
+              "type": "Comments",
+              "owner": null,
+              "bounds": {
+                "x": -615,
+                "y": -452,
+                "width": 310,
+                "height": 140
+              }
+            },
+            "31a5ceec-8648-476b-b71d-a13afe541a7e": {
+              "id": "31a5ceec-8648-476b-b71d-a13afe541a7e",
+              "name": "Abono",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -163,
+                "y": -282,
+                "width": 160,
+                "height": 220
+              },
+              "attributes": [
+                "0972234b-ba15-4d93-9030-9e7a48b13890",
+                "b3aee4de-ddad-40fe-b119-da03d11248ee",
+                "6826bd1c-3cf2-428c-a3e0-05e8fa46af2b",
+                "15b0c9f8-3f4b-4c42-86e2-9a1b7a2904ea",
+                "bcb84fc2-33e0-43ac-8d5b-d5ecb0e35ac9",
+                "28c13887-82cf-4b4a-ab5e-7eda3beb964a"
+              ],
+              "methods": []
+            },
+            "0972234b-ba15-4d93-9030-9e7a48b13890": {
+              "id": "0972234b-ba15-4d93-9030-9e7a48b13890",
+              "name": "idAbono",
+              "type": "ClassAttribute",
+              "owner": "31a5ceec-8648-476b-b71d-a13afe541a7e",
+              "bounds": {
+                "x": -162.5,
+                "y": -241.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "b3aee4de-ddad-40fe-b119-da03d11248ee": {
+              "id": "b3aee4de-ddad-40fe-b119-da03d11248ee",
+              "name": "fechaIni",
+              "type": "ClassAttribute",
+              "owner": "31a5ceec-8648-476b-b71d-a13afe541a7e",
+              "bounds": {
+                "x": -162.5,
+                "y": -211.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "6826bd1c-3cf2-428c-a3e0-05e8fa46af2b": {
+              "id": "6826bd1c-3cf2-428c-a3e0-05e8fa46af2b",
+              "name": "fechaFin",
+              "type": "ClassAttribute",
+              "owner": "31a5ceec-8648-476b-b71d-a13afe541a7e",
+              "bounds": {
+                "x": -162.5,
+                "y": -181.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "15b0c9f8-3f4b-4c42-86e2-9a1b7a2904ea": {
+              "id": "15b0c9f8-3f4b-4c42-86e2-9a1b7a2904ea",
+              "name": "coste",
+              "type": "ClassAttribute",
+              "owner": "31a5ceec-8648-476b-b71d-a13afe541a7e",
+              "bounds": {
+                "x": -162.5,
+                "y": -151.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "float",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "bcb84fc2-33e0-43ac-8d5b-d5ecb0e35ac9": {
+              "id": "bcb84fc2-33e0-43ac-8d5b-d5ecb0e35ac9",
+              "name": "cc",
+              "type": "ClassAttribute",
+              "owner": "31a5ceec-8648-476b-b71d-a13afe541a7e",
+              "bounds": {
+                "x": -162.5,
+                "y": -121.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "28c13887-82cf-4b4a-ab5e-7eda3beb964a": {
+              "id": "28c13887-82cf-4b4a-ab5e-7eda3beb964a",
+              "name": "familiar",
+              "type": "ClassAttribute",
+              "owner": "31a5ceec-8648-476b-b71d-a13afe541a7e",
+              "bounds": {
+                "x": -162.5,
+                "y": -91.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "bool",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "483ee50f-6f3c-4bcd-b59e-c0415d8ea013": {
+              "id": "483ee50f-6f3c-4bcd-b59e-c0415d8ea013",
+              "name": "TipoAbono",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": 172,
+                "y": -255,
+                "width": 200,
+                "height": 160
+              },
+              "attributes": [
+                "90ce0740-6011-4b09-92f9-7d182e201772",
+                "16506bcf-dcaa-473c-b5d4-ef1b6ac1c1ec",
+                "d0f29643-c3ed-4f5a-bccd-027b99d69ccf",
+                "4c065264-fa8f-45f2-9690-b2468b1bec7d"
+              ],
+              "methods": []
+            },
+            "90ce0740-6011-4b09-92f9-7d182e201772": {
+              "id": "90ce0740-6011-4b09-92f9-7d182e201772",
+              "name": "idTipoAbono",
+              "type": "ClassAttribute",
+              "owner": "483ee50f-6f3c-4bcd-b59e-c0415d8ea013",
+              "bounds": {
+                "x": 172.5,
+                "y": -214.5,
+                "width": 199,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "16506bcf-dcaa-473c-b5d4-ef1b6ac1c1ec": {
+              "id": "16506bcf-dcaa-473c-b5d4-ef1b6ac1c1ec",
+              "name": "duracion",
+              "type": "ClassAttribute",
+              "owner": "483ee50f-6f3c-4bcd-b59e-c0415d8ea013",
+              "bounds": {
+                "x": 172.5,
+                "y": -184.5,
+                "width": 199,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "d0f29643-c3ed-4f5a-bccd-027b99d69ccf": {
+              "id": "d0f29643-c3ed-4f5a-bccd-027b99d69ccf",
+              "name": "precioIndividual",
+              "type": "ClassAttribute",
+              "owner": "483ee50f-6f3c-4bcd-b59e-c0415d8ea013",
+              "bounds": {
+                "x": 172.5,
+                "y": -154.5,
+                "width": 199,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "float",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "4c065264-fa8f-45f2-9690-b2468b1bec7d": {
+              "id": "4c065264-fa8f-45f2-9690-b2468b1bec7d",
+              "name": "precioFamiliar",
+              "type": "ClassAttribute",
+              "owner": "483ee50f-6f3c-4bcd-b59e-c0415d8ea013",
+              "bounds": {
+                "x": 172.5,
+                "y": -124.5,
+                "width": 199,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "float",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "7f9d55ba-9160-4a8c-8d81-c27b46993a0f": {
+              "id": "7f9d55ba-9160-4a8c-8d81-c27b46993a0f",
+              "name": "Si familiar es false, el abono solo puede tener un abonado. ----------------------------\nfechaIni < fechaFin -------------------------------\ncoste >= 0 ----------------------------------\ncc 24 d\u00edgitos",
+              "type": "Comments",
+              "owner": null,
+              "bounds": {
+                "x": -213,
+                "y": -454,
+                "width": 290,
+                "height": 150
+              }
+            },
+            "b3e55ebc-df68-4fea-9bb5-8396444f315a": {
+              "id": "b3e55ebc-df68-4fea-9bb5-8396444f315a",
+              "name": "duracion >= 1\nprecioIndividual >= 0\nprecioFamiliar >= 0",
+              "type": "Comments",
+              "owner": null,
+              "bounds": {
+                "x": 176,
+                "y": -408,
+                "width": 200,
+                "height": 70
+              }
+            },
+            "840572a2-1374-4395-affb-ad6202f4609d": {
+              "id": "840572a2-1374-4395-affb-ad6202f4609d",
+              "name": "SuscripcionAbono",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -377,
+                "y": -121,
+                "width": 170,
+                "height": 70
+              },
+              "attributes": [
+                "eeb40632-6fd3-4c85-8201-a3917b692140"
+              ],
+              "methods": []
+            },
+            "eeb40632-6fd3-4c85-8201-a3917b692140": {
+              "id": "eeb40632-6fd3-4c85-8201-a3917b692140",
+              "name": "fechaSus",
+              "type": "ClassAttribute",
+              "owner": "840572a2-1374-4395-affb-ad6202f4609d",
+              "bounds": {
+                "x": -376.5,
+                "y": -80.5,
+                "width": 169,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "20ca3353-490c-4297-b74f-bd85f0113367": {
+              "id": "20ca3353-490c-4297-b74f-bd85f0113367",
+              "name": "Curso",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -597,
+                "y": 155,
+                "width": 160,
+                "height": 190
+              },
+              "attributes": [
+                "dbbe0024-3f4b-42e6-9091-1de025265fbc",
+                "fdc50ba5-7a8c-41bb-9bcf-6f7f06f9d8f6",
+                "0b85e8b3-ca41-4b39-856b-e71856814b89",
+                "285ab8c1-fbdb-40c4-9c57-3b0714c2a28b",
+                "d506f4fe-e44f-4b31-bd4e-acceefedca50"
+              ],
+              "methods": []
+            },
+            "dbbe0024-3f4b-42e6-9091-1de025265fbc": {
+              "id": "dbbe0024-3f4b-42e6-9091-1de025265fbc",
+              "name": "idCurso",
+              "type": "ClassAttribute",
+              "owner": "20ca3353-490c-4297-b74f-bd85f0113367",
+              "bounds": {
+                "x": -596.5,
+                "y": 195.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "fdc50ba5-7a8c-41bb-9bcf-6f7f06f9d8f6": {
+              "id": "fdc50ba5-7a8c-41bb-9bcf-6f7f06f9d8f6",
+              "name": "nombre",
+              "type": "ClassAttribute",
+              "owner": "20ca3353-490c-4297-b74f-bd85f0113367",
+              "bounds": {
+                "x": -596.5,
+                "y": 225.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "0b85e8b3-ca41-4b39-856b-e71856814b89": {
+              "id": "0b85e8b3-ca41-4b39-856b-e71856814b89",
+              "name": "fechaIni",
+              "type": "ClassAttribute",
+              "owner": "20ca3353-490c-4297-b74f-bd85f0113367",
+              "bounds": {
+                "x": -596.5,
+                "y": 255.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "285ab8c1-fbdb-40c4-9c57-3b0714c2a28b": {
+              "id": "285ab8c1-fbdb-40c4-9c57-3b0714c2a28b",
+              "name": "fechaFin",
+              "type": "ClassAttribute",
+              "owner": "20ca3353-490c-4297-b74f-bd85f0113367",
+              "bounds": {
+                "x": -596.5,
+                "y": 285.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "d506f4fe-e44f-4b31-bd4e-acceefedca50": {
+              "id": "d506f4fe-e44f-4b31-bd4e-acceefedca50",
+              "name": "precio",
+              "type": "ClassAttribute",
+              "owner": "20ca3353-490c-4297-b74f-bd85f0113367",
+              "bounds": {
+                "x": -596.5,
+                "y": 315.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "float",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "c5124629-8bb7-4b4c-ade8-3d2d28e023d4": {
+              "id": "c5124629-8bb7-4b4c-ade8-3d2d28e023d4",
+              "name": "TipoCurso",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -596,
+                "y": 417,
+                "width": 180,
+                "height": 250
+              },
+              "attributes": [
+                "573d5263-2428-41c0-9135-5032277645b7",
+                "07b560de-3355-476f-899c-27ff3685edee",
+                "d098000c-ad18-4e83-8007-36515c794ec1",
+                "112ad5e0-245f-45d6-8c46-13fa2b94a0fc",
+                "6c0264ae-cdb9-4dc4-b515-e260ef823c84",
+                "8b4d8e1e-6e5b-42cb-86aa-ef1464bf23aa",
+                "fc50a0c4-422e-4340-8ab2-e0f9282d38e8"
+              ],
+              "methods": []
+            },
+            "573d5263-2428-41c0-9135-5032277645b7": {
+              "id": "573d5263-2428-41c0-9135-5032277645b7",
+              "name": "idTipoCurso",
+              "type": "ClassAttribute",
+              "owner": "c5124629-8bb7-4b4c-ade8-3d2d28e023d4",
+              "bounds": {
+                "x": -595.5,
+                "y": 457.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "07b560de-3355-476f-899c-27ff3685edee": {
+              "id": "07b560de-3355-476f-899c-27ff3685edee",
+              "name": "nombre",
+              "type": "ClassAttribute",
+              "owner": "c5124629-8bb7-4b4c-ade8-3d2d28e023d4",
+              "bounds": {
+                "x": -595.5,
+                "y": 487.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "d098000c-ad18-4e83-8007-36515c794ec1": {
+              "id": "d098000c-ad18-4e83-8007-36515c794ec1",
+              "name": "des",
+              "type": "ClassAttribute",
+              "owner": "c5124629-8bb7-4b4c-ade8-3d2d28e023d4",
+              "bounds": {
+                "x": -595.5,
+                "y": 517.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "112ad5e0-245f-45d6-8c46-13fa2b94a0fc": {
+              "id": "112ad5e0-245f-45d6-8c46-13fa2b94a0fc",
+              "name": "aforo",
+              "type": "ClassAttribute",
+              "owner": "c5124629-8bb7-4b4c-ade8-3d2d28e023d4",
+              "bounds": {
+                "x": -595.5,
+                "y": 547.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "6c0264ae-cdb9-4dc4-b515-e260ef823c84": {
+              "id": "6c0264ae-cdb9-4dc4-b515-e260ef823c84",
+              "name": "precio",
+              "type": "ClassAttribute",
+              "owner": "c5124629-8bb7-4b4c-ade8-3d2d28e023d4",
+              "bounds": {
+                "x": -595.5,
+                "y": 577.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "float",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "8b4d8e1e-6e5b-42cb-86aa-ef1464bf23aa": {
+              "id": "8b4d8e1e-6e5b-42cb-86aa-ef1464bf23aa",
+              "name": "edadMin",
+              "type": "ClassAttribute",
+              "owner": "c5124629-8bb7-4b4c-ade8-3d2d28e023d4",
+              "bounds": {
+                "x": -595.5,
+                "y": 607.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": true,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "fc50a0c4-422e-4340-8ab2-e0f9282d38e8": {
+              "id": "fc50a0c4-422e-4340-8ab2-e0f9282d38e8",
+              "name": "edadMax",
+              "type": "ClassAttribute",
+              "owner": "c5124629-8bb7-4b4c-ade8-3d2d28e023d4",
+              "bounds": {
+                "x": -595.5,
+                "y": 637.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": true,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "5f080a3b-341d-467f-9605-d6f9253afb78": {
+              "id": "5f080a3b-341d-467f-9605-d6f9253afb78",
+              "name": "InscripcionCurso",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -377,
+                "y": 47,
+                "width": 160,
+                "height": 70
+              },
+              "attributes": [
+                "d7ba74f2-f473-4cb0-964a-09ca0cc8c232"
+              ],
+              "methods": []
+            },
+            "d7ba74f2-f473-4cb0-964a-09ca0cc8c232": {
+              "id": "d7ba74f2-f473-4cb0-964a-09ca0cc8c232",
+              "name": "fechaInsc",
+              "type": "ClassAttribute",
+              "owner": "5f080a3b-341d-467f-9605-d6f9253afb78",
+              "bounds": {
+                "x": -376.5,
+                "y": 87.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "c3fc5d7a-8acc-4996-8491-deceb006854d": {
+              "id": "c3fc5d7a-8acc-4996-8491-deceb006854d",
+              "name": "Empleado",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -103,
+                "y": 19,
+                "width": 160,
+                "height": 100
+              },
+              "attributes": [
+                "6416332f-459a-488b-8b29-aa83a187f2b8",
+                "db498a89-4d84-4eee-bbc9-b133b5189757"
+              ],
+              "methods": []
+            },
+            "6416332f-459a-488b-8b29-aa83a187f2b8": {
+              "id": "6416332f-459a-488b-8b29-aa83a187f2b8",
+              "name": "cc",
+              "type": "ClassAttribute",
+              "owner": "c3fc5d7a-8acc-4996-8491-deceb006854d",
+              "bounds": {
+                "x": -102.5,
+                "y": 59.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "db498a89-4d84-4eee-bbc9-b133b5189757": {
+              "id": "db498a89-4d84-4eee-bbc9-b133b5189757",
+              "name": "rol",
+              "type": "ClassAttribute",
+              "owner": "c3fc5d7a-8acc-4996-8491-deceb006854d",
+              "bounds": {
+                "x": -102.5,
+                "y": 89.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "Rol",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "670f52f7-2ee8-4742-ad7b-86d2f563076a": {
+              "id": "670f52f7-2ee8-4742-ad7b-86d2f563076a",
+              "name": "Rol",
+              "type": "Enumeration",
+              "owner": null,
+              "bounds": {
+                "x": 441,
+                "y": 164,
+                "width": 160,
+                "height": 140
+              },
+              "attributes": [
+                "4e6f2f38-7716-46a9-aa36-653304f14bd0",
+                "3b981925-9af6-4ba3-b995-a3bf1ac7bd09",
+                "6fa674e8-ef06-4eab-9259-ae8d92b3b463"
+              ],
+              "methods": []
+            },
+            "4e6f2f38-7716-46a9-aa36-653304f14bd0": {
+              "id": "4e6f2f38-7716-46a9-aa36-653304f14bd0",
+              "name": "administracion",
+              "type": "ClassAttribute",
+              "owner": "670f52f7-2ee8-4742-ad7b-86d2f563076a",
+              "bounds": {
+                "x": 441.5,
+                "y": 214.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "3b981925-9af6-4ba3-b995-a3bf1ac7bd09": {
+              "id": "3b981925-9af6-4ba3-b995-a3bf1ac7bd09",
+              "name": "monitor",
+              "type": "ClassAttribute",
+              "owner": "670f52f7-2ee8-4742-ad7b-86d2f563076a",
+              "bounds": {
+                "x": 441.5,
+                "y": 244.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "6fa674e8-ef06-4eab-9259-ae8d92b3b463": {
+              "id": "6fa674e8-ef06-4eab-9259-ae8d92b3b463",
+              "name": "mantenimiento",
+              "type": "ClassAttribute",
+              "owner": "670f52f7-2ee8-4742-ad7b-86d2f563076a",
+              "bounds": {
+                "x": 441.5,
+                "y": 274.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "eab76d11-2026-4948-906a-713735b0fe0d": {
+              "id": "eab76d11-2026-4948-906a-713735b0fe0d",
+              "name": "Monitoreo",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": -310,
+                "y": 278,
+                "width": 160,
+                "height": 100
+              },
+              "attributes": [
+                "44d62e0d-ac7d-4465-8feb-00476912d249",
+                "678e4898-4673-4a26-aba5-de3ea1bf2323"
+              ],
+              "methods": []
+            },
+            "44d62e0d-ac7d-4465-8feb-00476912d249": {
+              "id": "44d62e0d-ac7d-4465-8feb-00476912d249",
+              "name": "fechaAlta",
+              "type": "ClassAttribute",
+              "owner": "eab76d11-2026-4948-906a-713735b0fe0d",
+              "bounds": {
+                "x": -309.5,
+                "y": 318.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "678e4898-4673-4a26-aba5-de3ea1bf2323": {
+              "id": "678e4898-4673-4a26-aba5-de3ea1bf2323",
+              "name": "descTareas",
+              "type": "ClassAttribute",
+              "owner": "eab76d11-2026-4948-906a-713735b0fe0d",
+              "bounds": {
+                "x": -309.5,
+                "y": 348.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": true,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "f82d39b6-ffee-49c9-8e2c-1cb81268d2d8": {
+              "id": "f82d39b6-ffee-49c9-8e2c-1cb81268d2d8",
+              "name": "El tipo Rol del Empleado debe ser monitor",
+              "type": "Comments",
+              "owner": null,
+              "bounds": {
+                "x": -318,
+                "y": 413,
+                "width": 170,
+                "height": 60
+              }
+            },
+            "5e78bbfe-5919-4adc-9666-0ecc6d423aaf": {
+              "id": "5e78bbfe-5919-4adc-9666-0ecc6d423aaf",
+              "name": "Proceso",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": 62,
+                "y": 174,
+                "width": 180,
+                "height": 160
+              },
+              "attributes": [
+                "95896f2d-8685-47c3-848d-7ca112d51b13",
+                "061169b7-4e6e-4943-86bb-221cf57e1929",
+                "c9ec7999-f6b7-4c25-8fd5-4c206a45a435",
+                "e960404b-3ec4-4cd2-b718-42e53aaece26"
+              ],
+              "methods": []
+            },
+            "95896f2d-8685-47c3-848d-7ca112d51b13": {
+              "id": "95896f2d-8685-47c3-848d-7ca112d51b13",
+              "name": "idProceso",
+              "type": "ClassAttribute",
+              "owner": "5e78bbfe-5919-4adc-9666-0ecc6d423aaf",
+              "bounds": {
+                "x": 62.5,
+                "y": 214.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "061169b7-4e6e-4943-86bb-221cf57e1929": {
+              "id": "061169b7-4e6e-4943-86bb-221cf57e1929",
+              "name": "fechaIni",
+              "type": "ClassAttribute",
+              "owner": "5e78bbfe-5919-4adc-9666-0ecc6d423aaf",
+              "bounds": {
+                "x": 62.5,
+                "y": 244.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "c9ec7999-f6b7-4c25-8fd5-4c206a45a435": {
+              "id": "c9ec7999-f6b7-4c25-8fd5-4c206a45a435",
+              "name": "fechaFin",
+              "type": "ClassAttribute",
+              "owner": "5e78bbfe-5919-4adc-9666-0ecc6d423aaf",
+              "bounds": {
+                "x": 62.5,
+                "y": 274.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "e960404b-3ec4-4cd2-b718-42e53aaece26": {
+              "id": "e960404b-3ec4-4cd2-b718-42e53aaece26",
+              "name": "observaciones",
+              "type": "ClassAttribute",
+              "owner": "5e78bbfe-5919-4adc-9666-0ecc6d423aaf",
+              "bounds": {
+                "x": 62.5,
+                "y": 304.5,
+                "width": 179,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": true,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "fcc210c7-da0b-4a5f-ac26-3b207a95192b": {
+              "id": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
+              "name": "TipoProceso",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": 25,
+                "y": 429,
+                "width": 200,
+                "height": 160
+              },
+              "attributes": [
+                "43bb198c-6adc-4f02-8a0c-41eb57692836",
+                "d1e6766d-2048-4265-baf4-24df23a27b5f",
+                "7561c26f-7d78-4391-87e3-a5e75a8e9b57",
+                "f77ef18b-d855-4f95-9304-ed55e68cc3c7"
+              ],
+              "methods": []
+            },
+            "43bb198c-6adc-4f02-8a0c-41eb57692836": {
+              "id": "43bb198c-6adc-4f02-8a0c-41eb57692836",
+              "name": "idTipoProceso",
+              "type": "ClassAttribute",
+              "owner": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
+              "bounds": {
+                "x": 25.5,
+                "y": 469.5,
+                "width": 199,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "d1e6766d-2048-4265-baf4-24df23a27b5f": {
+              "id": "d1e6766d-2048-4265-baf4-24df23a27b5f",
+              "name": "nombre",
+              "type": "ClassAttribute",
+              "owner": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
+              "bounds": {
+                "x": 25.5,
+                "y": 499.5,
+                "width": 199,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "7561c26f-7d78-4391-87e3-a5e75a8e9b57": {
+              "id": "7561c26f-7d78-4391-87e3-a5e75a8e9b57",
+              "name": "desc",
+              "type": "ClassAttribute",
+              "owner": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
+              "bounds": {
+                "x": 25.5,
+                "y": 529.5,
+                "width": 199,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "f77ef18b-d855-4f95-9304-ed55e68cc3c7": {
+              "id": "f77ef18b-d855-4f95-9304-ed55e68cc3c7",
+              "name": "instrucciones",
+              "type": "ClassAttribute",
+              "owner": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
+              "bounds": {
+                "x": 25.5,
+                "y": 559.5,
+                "width": 199,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": false,
+              "isExternalId": false
+            },
+            "9f17430e-c399-4bb1-bfe2-b49628b22787": {
+              "id": "9f17430e-c399-4bb1-bfe2-b49628b22787",
+              "name": "Frecuencia",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": 447,
+                "y": 388,
+                "width": 160,
+                "height": 100
+              },
+              "attributes": [
+                "5c2b39d2-abfc-4c5b-9f0e-4aa9b92c9d98",
+                "53b2f6b9-08e9-4b28-aad7-8e853cbd4526"
+              ],
+              "methods": []
+            },
+            "5c2b39d2-abfc-4c5b-9f0e-4aa9b92c9d98": {
+              "id": "5c2b39d2-abfc-4c5b-9f0e-4aa9b92c9d98",
+              "name": "cantidad",
+              "type": "ClassAttribute",
+              "owner": "9f17430e-c399-4bb1-bfe2-b49628b22787",
+              "bounds": {
+                "x": 447.5,
+                "y": 428.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "int",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "53b2f6b9-08e9-4b28-aad7-8e853cbd4526": {
+              "id": "53b2f6b9-08e9-4b28-aad7-8e853cbd4526",
+              "name": "unidad",
+              "type": "ClassAttribute",
+              "owner": "9f17430e-c399-4bb1-bfe2-b49628b22787",
+              "bounds": {
+                "x": 447.5,
+                "y": 458.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "str",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "7cd7a2bf-dc5d-4fe2-8071-eceeeea0592b": {
+              "id": "7cd7a2bf-dc5d-4fe2-8071-eceeeea0592b",
+              "name": "Fecha",
+              "type": "Class",
+              "owner": null,
+              "bounds": {
+                "x": 446,
+                "y": 499,
+                "width": 160,
+                "height": 70
+              },
+              "attributes": [
+                "42c9e4d8-e4b0-47ef-8980-645edd3dfdea"
+              ],
+              "methods": []
+            },
+            "42c9e4d8-e4b0-47ef-8980-645edd3dfdea": {
+              "id": "42c9e4d8-e4b0-47ef-8980-645edd3dfdea",
+              "name": "fecha",
+              "type": "ClassAttribute",
+              "owner": "7cd7a2bf-dc5d-4fe2-8071-eceeeea0592b",
+              "bounds": {
+                "x": 446.5,
+                "y": 539.5,
+                "width": 159,
+                "height": 30
+              },
+              "code": "",
+              "visibility": "public",
+              "attributeType": "date",
+              "implementationType": "none",
+              "stateMachineId": "",
+              "quantumCircuitId": "",
+              "neuralNetworkId": "",
+              "isOptional": false,
+              "isDerived": false,
+              "isId": true,
+              "isExternalId": false
+            },
+            "b688d588-fb64-4114-a5ec-d28755fca52f": {
+              "id": "b688d588-fb64-4114-a5ec-d28755fca52f",
+              "name": "El tipo de Rol del Empleado debe ser mantenimiento",
+              "type": "Comments",
+              "owner": null,
+              "bounds": {
+                "x": 239,
+                "y": 70,
+                "width": 180,
+                "height": 70
+              }
             }
           },
-          "relationships": {},
+          "relationships": {
+            "751d57e9-2613-4350-9c59-121fb5d49afb": {
+              "id": "751d57e9-2613-4350-9c59-121fb5d49afb",
+              "name": "",
+              "type": "Link",
+              "owner": null,
+              "bounds": {
+                "x": -519,
+                "y": -312,
+                "width": 10,
+                "height": 19
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 19
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "a391adbb-a351-4cd7-b27f-184228125eb3",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Down",
+                "element": "a7b5823e-b766-4897-8543-5cfc243973f3",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "8751004d-7786-4bc6-a292-c5d164795884": {
+              "id": "8751004d-7786-4bc6-a292-c5d164795884",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -424,
+                "y": -182,
+                "width": 261,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 261,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Upright",
+                "element": "a391adbb-a351-4cd7-b27f-184228125eb3",
+                "multiplicity": "1..*",
+                "role": "abonados",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Left",
+                "element": "31a5ceec-8648-476b-b71d-a13afe541a7e",
+                "multiplicity": "0..*",
+                "role": "abonos",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "cc342275-c666-406f-9544-66e2f2d4a343": {
+              "id": "cc342275-c666-406f-9544-66e2f2d4a343",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -3,
+                "y": -185,
+                "width": 175,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 175,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Upright",
+                "element": "31a5ceec-8648-476b-b71d-a13afe541a7e",
+                "multiplicity": "0..*",
+                "role": "abonos",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Upleft",
+                "element": "483ee50f-6f3c-4bcd-b59e-c0415d8ea013",
+                "multiplicity": "1..1",
+                "role": "tipoAbono",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "4b582901-287e-439e-846b-0d5d33a3eaf1": {
+              "id": "4b582901-287e-439e-846b-0d5d33a3eaf1",
+              "name": "",
+              "type": "Link",
+              "owner": null,
+              "bounds": {
+                "x": -88,
+                "y": -304,
+                "width": 10,
+                "height": 22
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 22
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "31a5ceec-8648-476b-b71d-a13afe541a7e",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Down",
+                "element": "7f9d55ba-9160-4a8c-8d81-c27b46993a0f",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "bde97dfe-dd48-416e-89ad-56ce2ef8d6d4": {
+              "id": "bde97dfe-dd48-416e-89ad-56ce2ef8d6d4",
+              "name": "",
+              "type": "Link",
+              "owner": null,
+              "bounds": {
+                "x": 269,
+                "y": -338,
+                "width": 10,
+                "height": 83
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 83
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "483ee50f-6f3c-4bcd-b59e-c0415d8ea013",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Down",
+                "element": "b3e55ebc-df68-4fea-9bb5-8396444f315a",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "98853465-2afc-427a-af41-dbcd06fa9001": {
+              "id": "98853465-2afc-427a-af41-dbcd06fa9001",
+              "name": "",
+              "type": "ClassLinkRel",
+              "owner": null,
+              "bounds": {
+                "x": -297.23519241281514,
+                "y": -172,
+                "width": 10,
+                "height": 51
+              },
+              "path": [
+                {
+                  "x": 5.235192412815138,
+                  "y": 51
+                },
+                {
+                  "x": 3.735192412815138,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "840572a2-1374-4395-affb-ad6202f4609d",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Center",
+                "element": "8751004d-7786-4bc6-a292-c5d164795884",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "86b1f442-fa68-4b24-94f2-7577f133befd": {
+              "id": "86b1f442-fa68-4b24-94f2-7577f133befd",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -591.078125,
+                "y": 345,
+                "width": 106.265625,
+                "height": 81
+              },
+              "path": [
+                {
+                  "x": 74.578125,
+                  "y": 0
+                },
+                {
+                  "x": 74.578125,
+                  "y": 72
+                }
+              ],
+              "source": {
+                "direction": "Down",
+                "element": "20ca3353-490c-4297-b74f-bd85f0113367",
+                "multiplicity": "0..*",
+                "role": "cursos",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Up",
+                "element": "c5124629-8bb7-4b4c-ade8-3d2d28e023d4",
+                "multiplicity": "1..1",
+                "role": "tipoCurso",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "1d3cef6c-0138-4a70-9501-8d260598e4d5": {
+              "id": "1d3cef6c-0138-4a70-9501-8d260598e4d5",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -546.7890625,
+                "y": 47,
+                "width": 89.0390625,
+                "height": 117
+              },
+              "path": [
+                {
+                  "x": 29.7890625,
+                  "y": 108
+                },
+                {
+                  "x": 29.7890625,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "20ca3353-490c-4297-b74f-bd85f0113367",
+                "multiplicity": "cursos",
+                "role": "0..*",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Down",
+                "element": "a391adbb-a351-4cd7-b27f-184228125eb3",
+                "multiplicity": "clientes",
+                "role": "0..*",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "2d6c8ddb-933f-400b-9e59-9fcfb7267297": {
+              "id": "2d6c8ddb-933f-400b-9e59-9fcfb7267297",
+              "name": "",
+              "type": "ClassLinkRel",
+              "owner": null,
+              "bounds": {
+                "x": -517,
+                "y": 89.58570936631276,
+                "width": 140,
+                "height": 31
+              },
+              "path": [
+                {
+                  "x": 140,
+                  "y": 9.914290633687244
+                },
+                {
+                  "x": 0,
+                  "y": 11.414290633687244
+                }
+              ],
+              "source": {
+                "direction": "Downleft",
+                "element": "5f080a3b-341d-467f-9605-d6f9253afb78",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Center",
+                "element": "1d3cef6c-0138-4a70-9501-8d260598e4d5",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "11d1024f-1ba2-4df0-aa02-2e30a44feb06": {
+              "id": "11d1024f-1ba2-4df0-aa02-2e30a44feb06",
+              "name": "",
+              "type": "ClassInheritance",
+              "owner": null,
+              "bounds": {
+                "x": -424,
+                "y": -48,
+                "width": 406,
+                "height": 67
+              },
+              "path": [
+                {
+                  "x": 401,
+                  "y": 67
+                },
+                {
+                  "x": 401,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "c3fc5d7a-8acc-4996-8491-deceb006854d",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Downright",
+                "element": "a391adbb-a351-4cd7-b27f-184228125eb3",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "b89ae08a-2159-4ad8-999b-53a9769e9753": {
+              "id": "b89ae08a-2159-4ad8-999b-53a9769e9753",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": -437,
+                "y": 119,
+                "width": 489.25,
+                "height": 169
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 131
+                },
+                {
+                  "x": 414,
+                  "y": 131
+                },
+                {
+                  "x": 414,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "20ca3353-490c-4297-b74f-bd85f0113367",
+                "multiplicity": "cursos",
+                "role": "0..*",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Down",
+                "element": "c3fc5d7a-8acc-4996-8491-deceb006854d",
+                "multiplicity": "monitores",
+                "role": "0..*",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "53089308-381f-41b7-a761-28f2dff8cddd": {
+              "id": "53089308-381f-41b7-a761-28f2dff8cddd",
+              "name": "",
+              "type": "ClassLinkRel",
+              "owner": null,
+              "bounds": {
+                "x": -235,
+                "y": 250,
+                "width": 10,
+                "height": 28
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 28
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "eab76d11-2026-4948-906a-713735b0fe0d",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Center",
+                "element": "b89ae08a-2159-4ad8-999b-53a9769e9753",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "40708daa-d283-4d97-87e3-572443f9cc34": {
+              "id": "40708daa-d283-4d97-87e3-572443f9cc34",
+              "name": "",
+              "type": "Link",
+              "owner": null,
+              "bounds": {
+                "x": -235,
+                "y": 378,
+                "width": 10,
+                "height": 35
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 35
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "f82d39b6-ffee-49c9-8e2c-1cb81268d2d8",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Down",
+                "element": "eab76d11-2026-4948-906a-713735b0fe0d",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "8e6aba72-849d-4c79-b526-fb14a92ad1cf": {
+              "id": "8e6aba72-849d-4c79-b526-fb14a92ad1cf",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": 225,
+                "y": 448.5,
+                "width": 222,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 222,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Upright",
+                "element": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
+                "multiplicity": "0..*",
+                "role": "tiposProceso",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Left",
+                "element": "9f17430e-c399-4bb1-bfe2-b49628b22787",
+                "multiplicity": "0..1",
+                "role": "frecuencia",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "a47291c1-91f0-4d32-a899-f75cd37464c1": {
+              "id": "a47291c1-91f0-4d32-a899-f75cd37464c1",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": 225,
+                "y": 524,
+                "width": 221,
+                "height": 48
+              },
+              "path": [
+                {
+                  "x": 0,
+                  "y": 10
+                },
+                {
+                  "x": 221,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Right",
+                "element": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
+                "multiplicity": "0..*",
+                "role": "tiposProceso",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Left",
+                "element": "7cd7a2bf-dc5d-4fe2-8071-eceeeea0592b",
+                "multiplicity": "0..*",
+                "role": "fechas",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "7ac26763-6adb-4361-bfae-a768bb4ccd23": {
+              "id": "7ac26763-6adb-4361-bfae-a768bb4ccd23",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": 52.90625,
+                "y": 334,
+                "width": 122.28125,
+                "height": 104
+              },
+              "path": [
+                {
+                  "x": 90.59375,
+                  "y": 0
+                },
+                {
+                  "x": 90.59375,
+                  "y": 95
+                }
+              ],
+              "source": {
+                "direction": "Down",
+                "element": "5e78bbfe-5919-4adc-9666-0ecc6d423aaf",
+                "multiplicity": "0..*",
+                "role": "procesos",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Up",
+                "element": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
+                "multiplicity": "1..1",
+                "role": "tipoProceso",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "359b552d-17f9-483b-9797-a46bfc69e3d7": {
+              "id": "359b552d-17f9-483b-9797-a46bfc69e3d7",
+              "name": "",
+              "type": "ClassBidirectional",
+              "owner": null,
+              "bounds": {
+                "x": 57,
+                "y": 59,
+                "width": 124.7890625,
+                "height": 124
+              },
+              "path": [
+                {
+                  "x": 95,
+                  "y": 115
+                },
+                {
+                  "x": 95,
+                  "y": 10
+                },
+                {
+                  "x": 0,
+                  "y": 10
+                }
+              ],
+              "source": {
+                "direction": "Up",
+                "element": "5e78bbfe-5919-4adc-9666-0ecc6d423aaf",
+                "multiplicity": "0..*",
+                "role": "procesos",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Right",
+                "element": "c3fc5d7a-8acc-4996-8491-deceb006854d",
+                "multiplicity": "0..*",
+                "role": "empleados",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            },
+            "21c2329f-bf87-45fb-9517-2cc265663301": {
+              "id": "21c2329f-bf87-45fb-9517-2cc265663301",
+              "name": "",
+              "type": "ClassLinkRel",
+              "owner": null,
+              "bounds": {
+                "x": 152,
+                "y": 112.40805205079353,
+                "width": 87,
+                "height": 30.999999999999986
+              },
+              "path": [
+                {
+                  "x": 87,
+                  "y": 10.091947949206471
+                },
+                {
+                  "x": 0,
+                  "y": 9.091947949206471
+                }
+              ],
+              "source": {
+                "direction": "Downleft",
+                "element": "b688d588-fb64-4114-a5ec-d28755fca52f",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "target": {
+                "direction": "Center",
+                "element": "359b552d-17f9-483b-9797-a46bfc69e3d7",
+                "multiplicity": "",
+                "role": "",
+                "navigable": true
+              },
+              "isManuallyLayouted": false
+            }
+          },
           "assessments": {}
         },
-        "lastUpdate": "2026-09-25T11:52:02.475Z"
+        "lastUpdate": "2026-09-27T11:58:00.911Z"
       }
     ],
     "ObjectDiagram": [
@@ -193,10 +2376,10 @@
           "cols": [],
           "gates": [],
           "gateMetadata": {},
-          "initialStates": [],
+          "classicalBitCount": 0,
           "version": "1.0.0"
         },
-        "lastUpdate": "2026-09-25T11:49:45.908Z"
+        "lastUpdate": "2026-09-27T10:50:53.509Z"
       }
     ],
     "NNDiagram": [
