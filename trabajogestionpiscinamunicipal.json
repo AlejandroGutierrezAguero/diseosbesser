@@ -469,7 +469,7 @@
               "bounds": {
                 "x": 174,
                 "y": -309,
-                "width": 220,
+                "width": 190,
                 "height": 160
               },
               "attributes": [
@@ -488,7 +488,7 @@
               "bounds": {
                 "x": 174.5,
                 "y": -268.5,
-                "width": 219,
+                "width": 189,
                 "height": 30
               },
               "code": "",
@@ -511,7 +511,7 @@
               "bounds": {
                 "x": 174.5,
                 "y": -238.5,
-                "width": 219,
+                "width": 189,
                 "height": 30
               },
               "code": "",
@@ -524,7 +524,7 @@
               "isOptional": false,
               "isDerived": false,
               "isId": false,
-              "isExternalId": true
+              "isExternalId": false
             },
             "d0f29643-c3ed-4f5a-bccd-027b99d69ccf": {
               "id": "d0f29643-c3ed-4f5a-bccd-027b99d69ccf",
@@ -534,7 +534,7 @@
               "bounds": {
                 "x": 174.5,
                 "y": -208.5,
-                "width": 219,
+                "width": 189,
                 "height": 30
               },
               "code": "",
@@ -557,7 +557,7 @@
               "bounds": {
                 "x": 174.5,
                 "y": -178.5,
-                "width": 219,
+                "width": 189,
                 "height": 30
               },
               "code": "",
@@ -586,14 +586,14 @@
             },
             "b3e55ebc-df68-4fea-9bb5-8396444f315a": {
               "id": "b3e55ebc-df68-4fea-9bb5-8396444f315a",
-              "name": "duracion >= 1\nprecioIndividual >= 0\nprecioFamiliar >= 0",
+              "name": "duracion >= 1\nprecioIndividual >= 0\nprecioFamiliar >= 0\nduracion \u00fanico",
               "type": "Comments",
               "owner": null,
               "bounds": {
                 "x": 166,
-                "y": -411,
+                "y": -421,
                 "width": 200,
-                "height": 70
+                "height": 80
               }
             },
             "840572a2-1374-4395-affb-ad6202f4609d": {
@@ -1085,8 +1085,8 @@
               "type": "Enumeration",
               "owner": null,
               "bounds": {
-                "x": 333,
-                "y": -106,
+                "x": 219,
+                "y": 101,
                 "width": 160,
                 "height": 140
               },
@@ -1103,8 +1103,8 @@
               "type": "ClassAttribute",
               "owner": "670f52f7-2ee8-4742-ad7b-86d2f563076a",
               "bounds": {
-                "x": 333.5,
-                "y": -55.5,
+                "x": 219.5,
+                "y": 151.5,
                 "width": 159,
                 "height": 30
               },
@@ -1126,8 +1126,8 @@
               "type": "ClassAttribute",
               "owner": "670f52f7-2ee8-4742-ad7b-86d2f563076a",
               "bounds": {
-                "x": 333.5,
-                "y": -25.5,
+                "x": 219.5,
+                "y": 181.5,
                 "width": 159,
                 "height": 30
               },
@@ -1149,8 +1149,8 @@
               "type": "ClassAttribute",
               "owner": "670f52f7-2ee8-4742-ad7b-86d2f563076a",
               "bounds": {
-                "x": 333.5,
-                "y": 4.5,
+                "x": 219.5,
+                "y": 211.5,
                 "width": 159,
                 "height": 30
               },
@@ -1168,7 +1168,7 @@
             },
             "eab76d11-2026-4948-906a-713735b0fe0d": {
               "id": "eab76d11-2026-4948-906a-713735b0fe0d",
-              "name": "Monitoreo",
+              "name": "Monitor",
               "type": "Class",
               "owner": null,
               "bounds": {
@@ -1358,16 +1358,18 @@
               "type": "Class",
               "owner": null,
               "bounds": {
-                "x": -60,
-                "y": 259,
+                "x": -64,
+                "y": 330,
                 "width": 200,
-                "height": 160
+                "height": 220
               },
               "attributes": [
                 "43bb198c-6adc-4f02-8a0c-41eb57692836",
                 "d1e6766d-2048-4265-baf4-24df23a27b5f",
                 "7561c26f-7d78-4391-87e3-a5e75a8e9b57",
-                "f77ef18b-d855-4f95-9304-ed55e68cc3c7"
+                "f77ef18b-d855-4f95-9304-ed55e68cc3c7",
+                "8694fb1b-f3fd-40c9-8116-8b259e1de2d1",
+                "aabfedb5-870b-42f5-a52d-2e2d03fe1c79"
               ],
               "methods": []
             },
@@ -1377,8 +1379,8 @@
               "type": "ClassAttribute",
               "owner": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
               "bounds": {
-                "x": -59.5,
-                "y": 299.5,
+                "x": -63.5,
+                "y": 370.5,
                 "width": 199,
                 "height": 30
               },
@@ -1400,8 +1402,8 @@
               "type": "ClassAttribute",
               "owner": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
               "bounds": {
-                "x": -59.5,
-                "y": 329.5,
+                "x": -63.5,
+                "y": 400.5,
                 "width": 199,
                 "height": 30
               },
@@ -1423,8 +1425,8 @@
               "type": "ClassAttribute",
               "owner": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
               "bounds": {
-                "x": -59.5,
-                "y": 359.5,
+                "x": -63.5,
+                "y": 430.5,
                 "width": 199,
                 "height": 30
               },
@@ -1446,8 +1448,8 @@
               "type": "ClassAttribute",
               "owner": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
               "bounds": {
-                "x": -59.5,
-                "y": 389.5,
+                "x": -63.5,
+                "y": 460.5,
                 "width": 199,
                 "height": 30
               },
@@ -1463,32 +1465,15 @@
               "isId": false,
               "isExternalId": false
             },
-            "9f17430e-c399-4bb1-bfe2-b49628b22787": {
-              "id": "9f17430e-c399-4bb1-bfe2-b49628b22787",
-              "name": "Frecuencia",
-              "type": "Class",
-              "owner": null,
-              "bounds": {
-                "x": 341,
-                "y": 219,
-                "width": 160,
-                "height": 100
-              },
-              "attributes": [
-                "5c2b39d2-abfc-4c5b-9f0e-4aa9b92c9d98",
-                "53b2f6b9-08e9-4b28-aad7-8e853cbd4526"
-              ],
-              "methods": []
-            },
-            "5c2b39d2-abfc-4c5b-9f0e-4aa9b92c9d98": {
-              "id": "5c2b39d2-abfc-4c5b-9f0e-4aa9b92c9d98",
-              "name": "cantidad",
+            "8694fb1b-f3fd-40c9-8116-8b259e1de2d1": {
+              "id": "8694fb1b-f3fd-40c9-8116-8b259e1de2d1",
+              "name": "cantidadFrec",
               "type": "ClassAttribute",
-              "owner": "9f17430e-c399-4bb1-bfe2-b49628b22787",
+              "owner": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
               "bounds": {
-                "x": 341.5,
-                "y": 259.5,
-                "width": 159,
+                "x": -63.5,
+                "y": 490.5,
+                "width": 199,
                 "height": 30
               },
               "code": "",
@@ -1498,20 +1483,20 @@
               "stateMachineId": "",
               "quantumCircuitId": "",
               "neuralNetworkId": "",
-              "isOptional": false,
+              "isOptional": true,
               "isDerived": false,
-              "isId": true,
+              "isId": false,
               "isExternalId": false
             },
-            "53b2f6b9-08e9-4b28-aad7-8e853cbd4526": {
-              "id": "53b2f6b9-08e9-4b28-aad7-8e853cbd4526",
-              "name": "unidad",
+            "aabfedb5-870b-42f5-a52d-2e2d03fe1c79": {
+              "id": "aabfedb5-870b-42f5-a52d-2e2d03fe1c79",
+              "name": "unidadFrec",
               "type": "ClassAttribute",
-              "owner": "9f17430e-c399-4bb1-bfe2-b49628b22787",
+              "owner": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
               "bounds": {
-                "x": 341.5,
-                "y": 289.5,
-                "width": 159,
+                "x": -63.5,
+                "y": 520.5,
+                "width": 199,
                 "height": 30
               },
               "code": "",
@@ -1521,72 +1506,9 @@
               "stateMachineId": "",
               "quantumCircuitId": "",
               "neuralNetworkId": "",
-              "isOptional": false,
+              "isOptional": true,
               "isDerived": false,
-              "isId": true,
-              "isExternalId": false
-            },
-            "7cd7a2bf-dc5d-4fe2-8071-eceeeea0592b": {
-              "id": "7cd7a2bf-dc5d-4fe2-8071-eceeeea0592b",
-              "name": "Fecha",
-              "type": "Class",
-              "owner": null,
-              "bounds": {
-                "x": 344,
-                "y": 351,
-                "width": 160,
-                "height": 100
-              },
-              "attributes": [
-                "42c9e4d8-e4b0-47ef-8980-645edd3dfdea",
-                "797ef07d-fa3c-4bec-8ace-a9dfab563919"
-              ],
-              "methods": []
-            },
-            "42c9e4d8-e4b0-47ef-8980-645edd3dfdea": {
-              "id": "42c9e4d8-e4b0-47ef-8980-645edd3dfdea",
-              "name": "dia",
-              "type": "ClassAttribute",
-              "owner": "7cd7a2bf-dc5d-4fe2-8071-eceeeea0592b",
-              "bounds": {
-                "x": 344.5,
-                "y": 391.5,
-                "width": 159,
-                "height": 30
-              },
-              "code": "",
-              "visibility": "public",
-              "attributeType": "int",
-              "implementationType": "none",
-              "stateMachineId": "",
-              "quantumCircuitId": "",
-              "neuralNetworkId": "",
-              "isOptional": false,
-              "isDerived": false,
-              "isId": true,
-              "isExternalId": false
-            },
-            "797ef07d-fa3c-4bec-8ace-a9dfab563919": {
-              "id": "797ef07d-fa3c-4bec-8ace-a9dfab563919",
-              "name": "mes",
-              "type": "ClassAttribute",
-              "owner": "7cd7a2bf-dc5d-4fe2-8071-eceeeea0592b",
-              "bounds": {
-                "x": 344.5,
-                "y": 421.5,
-                "width": 159,
-                "height": 30
-              },
-              "code": "",
-              "visibility": "public",
-              "attributeType": "int",
-              "implementationType": "none",
-              "stateMachineId": "",
-              "quantumCircuitId": "",
-              "neuralNetworkId": "",
-              "isOptional": false,
-              "isDerived": false,
-              "isId": true,
+              "isId": false,
               "isExternalId": false
             },
             "b688d588-fb64-4114-a5ec-d28755fca52f": {
@@ -1653,13 +1575,13 @@
             },
             "77e863f1-a821-4d65-b436-68f5fd2c7cf8": {
               "id": "77e863f1-a821-4d65-b436-68f5fd2c7cf8",
-              "name": "unidad in ('d', 's', m', a')\ncantidad >= 0",
+              "name": "unidadFrec in ('d', 's', m', a')\ncantidadFrec >= 0",
               "type": "Comments",
               "owner": null,
               "bounds": {
-                "x": 276,
-                "y": 139,
-                "width": 220,
+                "x": 170,
+                "y": 471,
+                "width": 250,
                 "height": 60
               }
             },
@@ -1669,8 +1591,8 @@
               "type": "Comments",
               "owner": null,
               "bounds": {
-                "x": 148,
-                "y": 58,
+                "x": 204,
+                "y": 27,
                 "width": 180,
                 "height": 50
               }
@@ -1687,16 +1609,16 @@
                 "height": 50
               }
             },
-            "dc0668ad-930e-4e7b-900c-7a74dac3f38e": {
-              "id": "dc0668ad-930e-4e7b-900c-7a74dac3f38e",
-              "name": "01 <= dia <= 31\n01 <= mes <= 12",
+            "e7280723-2262-40a9-b8e2-dff9f5bfe76b": {
+              "id": "e7280723-2262-40a9-b8e2-dff9f5bfe76b",
+              "name": "Los tipos float empleados ser\u00edan en realidad decimal (la herramienta no lo soporta)",
               "type": "Comments",
               "owner": null,
               "bounds": {
-                "x": 87,
-                "y": 472,
-                "width": 160,
-                "height": 60
+                "x": 207,
+                "y": 297,
+                "width": 180,
+                "height": 120
               }
             }
           },
@@ -1855,7 +1777,7 @@
               "type": "Link",
               "owner": null,
               "bounds": {
-                "x": 265,
+                "x": 264,
                 "y": -341,
                 "width": 10,
                 "height": 32
@@ -2075,80 +1997,6 @@
               },
               "isManuallyLayouted": false
             },
-            "8e6aba72-849d-4c79-b526-fb14a92ad1cf": {
-              "id": "8e6aba72-849d-4c79-b526-fb14a92ad1cf",
-              "name": "",
-              "type": "ClassBidirectional",
-              "owner": null,
-              "bounds": {
-                "x": 140,
-                "y": 279,
-                "width": 201,
-                "height": 48
-              },
-              "path": [
-                {
-                  "x": 0,
-                  "y": 10
-                },
-                {
-                  "x": 201,
-                  "y": 10
-                }
-              ],
-              "source": {
-                "direction": "Upright",
-                "element": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
-                "multiplicity": "0..*",
-                "role": "tiposProceso",
-                "navigable": true
-              },
-              "target": {
-                "direction": "Left",
-                "element": "9f17430e-c399-4bb1-bfe2-b49628b22787",
-                "multiplicity": "0..1",
-                "role": "frecuencia",
-                "navigable": true
-              },
-              "isManuallyLayouted": false
-            },
-            "a47291c1-91f0-4d32-a899-f75cd37464c1": {
-              "id": "a47291c1-91f0-4d32-a899-f75cd37464c1",
-              "name": "",
-              "type": "ClassBidirectional",
-              "owner": null,
-              "bounds": {
-                "x": 140,
-                "y": 375,
-                "width": 204,
-                "height": 48
-              },
-              "path": [
-                {
-                  "x": 0,
-                  "y": 10
-                },
-                {
-                  "x": 204,
-                  "y": 10
-                }
-              ],
-              "source": {
-                "direction": "Right",
-                "element": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
-                "multiplicity": "0..*",
-                "role": "tiposProceso",
-                "navigable": true
-              },
-              "target": {
-                "direction": "Left",
-                "element": "7cd7a2bf-dc5d-4fe2-8071-eceeeea0592b",
-                "multiplicity": "0..*",
-                "role": "fechas",
-                "navigable": true
-              },
-              "isManuallyLayouted": false
-            },
             "7ac26763-6adb-4361-bfae-a768bb4ccd23": {
               "id": "7ac26763-6adb-4361-bfae-a768bb4ccd23",
               "name": "",
@@ -2158,7 +2006,7 @@
                 "x": -60.59375,
                 "y": 187,
                 "width": 122.28125,
-                "height": 81
+                "height": 152
               },
               "path": [
                 {
@@ -2167,7 +2015,7 @@
                 },
                 {
                   "x": 90.59375,
-                  "y": 72
+                  "y": 143
                 }
               ],
               "source": {
@@ -2523,43 +2371,6 @@
               },
               "isManuallyLayouted": false
             },
-            "0f36a7d0-1e86-42d3-9c65-2581c07e800f": {
-              "id": "0f36a7d0-1e86-42d3-9c65-2581c07e800f",
-              "name": "",
-              "type": "Link",
-              "owner": null,
-              "bounds": {
-                "x": 413.5,
-                "y": 199,
-                "width": 10,
-                "height": 20
-              },
-              "path": [
-                {
-                  "x": 5,
-                  "y": 0
-                },
-                {
-                  "x": 5,
-                  "y": 20
-                }
-              ],
-              "source": {
-                "direction": "Down",
-                "element": "77e863f1-a821-4d65-b436-68f5fd2c7cf8",
-                "multiplicity": "",
-                "role": "",
-                "navigable": true
-              },
-              "target": {
-                "direction": "Up",
-                "element": "9f17430e-c399-4bb1-bfe2-b49628b22787",
-                "multiplicity": "",
-                "role": "",
-                "navigable": true
-              },
-              "isManuallyLayouted": false
-            },
             "60b10b6a-784f-40a9-9e1c-718f4983cdae": {
               "id": "60b10b6a-784f-40a9-9e1c-718f4983cdae",
               "name": "",
@@ -2567,8 +2378,8 @@
               "owner": null,
               "bounds": {
                 "x": 120,
-                "y": 73,
-                "width": 28,
+                "y": 42,
+                "width": 84,
                 "height": 31
               },
               "path": [
@@ -2577,7 +2388,7 @@
                   "y": 10
                 },
                 {
-                  "x": 28,
+                  "x": 84,
                   "y": 10
                 }
               ],
@@ -2638,45 +2449,37 @@
               },
               "isManuallyLayouted": false
             },
-            "3c2a90af-b353-4755-9635-ce387de02867": {
-              "id": "3c2a90af-b353-4755-9635-ce387de02867",
+            "fbd777f2-d3e9-4a54-b7aa-00eb8ed2eb16": {
+              "id": "fbd777f2-d3e9-4a54-b7aa-00eb8ed2eb16",
               "name": "",
               "type": "Link",
               "owner": null,
               "bounds": {
-                "x": 247,
-                "y": 416,
-                "width": 97,
-                "height": 122
+                "x": 136,
+                "y": 491,
+                "width": 34,
+                "height": 31
               },
               "path": [
                 {
-                  "x": 0,
-                  "y": 101
-                },
-                {
-                  "x": 48.5,
-                  "y": 101
-                },
-                {
-                  "x": 48.5,
+                  "x": 34,
                   "y": 10
                 },
                 {
-                  "x": 97,
+                  "x": 0,
                   "y": 10
                 }
               ],
               "source": {
-                "direction": "Downright",
-                "element": "dc0668ad-930e-4e7b-900c-7a74dac3f38e",
+                "direction": "Left",
+                "element": "77e863f1-a821-4d65-b436-68f5fd2c7cf8",
                 "multiplicity": "",
                 "role": "",
                 "navigable": true
               },
               "target": {
-                "direction": "Downleft",
-                "element": "7cd7a2bf-dc5d-4fe2-8071-eceeeea0592b",
+                "direction": "Right",
+                "element": "fcc210c7-da0b-4a5f-ac26-3b207a95192b",
                 "multiplicity": "",
                 "role": "",
                 "navigable": true
@@ -2686,7 +2489,7 @@
           },
           "assessments": {}
         },
-        "lastUpdate": "2026-09-27T14:50:26.737Z"
+        "lastUpdate": "2026-09-28T11:00:03.967Z"
       }
     ],
     "ObjectDiagram": [
